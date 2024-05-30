@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/TLavoie/static/css/main.ac151ae0.css",
-    "main.js": "/TLavoie/static/js/main.9102f8c3.js",
+    "main.js": "/TLavoie/static/js/main.b3d55d2c.js",
     "static/js/453.1407b060.chunk.js": "/TLavoie/static/js/453.1407b060.chunk.js",
     "static/media/instagram.png": "/TLavoie/static/media/instagram.ac32ec0a111aeba03298.png",
     "static/media/pinterest.png": "/TLavoie/static/media/pinterest.49ca89a8e1ce086ec17d.png",
     "static/media/linkedin.png": "/TLavoie/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/TLavoie/index.html",
     "main.ac151ae0.css.map": "/TLavoie/static/css/main.ac151ae0.css.map",
-    "main.9102f8c3.js.map": "/TLavoie/static/js/main.9102f8c3.js.map",
+    "main.b3d55d2c.js.map": "/TLavoie/static/js/main.b3d55d2c.js.map",
     "453.1407b060.chunk.js.map": "/TLavoie/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac151ae0.css",
-    "static/js/main.9102f8c3.js"
+    "static/js/main.b3d55d2c.js"
   ]
 }
