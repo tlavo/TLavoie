@@ -15,27 +15,27 @@ function App() {
           <div className="container">
             <ul className="nav nolist">
               <li>
-                <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/TLavoie" end className={({ isActive }) => (isActive ? 'active' : '')}>
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/TLavoie/experience" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Experience
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/education" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/TLavoie/education" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Education
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/skills" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/TLavoie/skills" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Skills
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/interests" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/TLavoie/interests" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Interests
                 </NavLink>
               </li>
@@ -55,11 +55,11 @@ function App() {
             </p>
           </div>
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/interests" element={<Interests />} />
+            <Route path="/TLavoie/" element={<About />} />
+            <Route path="/TLavoie/skills" element={<Skills />} />
+            <Route path="/TLavoie/education" element={<Education />} />
+            <Route path="/TLavoie/experience" element={<Experience />} />
+            <Route path="/TLavoie/interests" element={<Interests />} />
           </Routes>
         </div>
       </article>
