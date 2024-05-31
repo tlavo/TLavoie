@@ -16,7 +16,7 @@ function App() {
             <ul className="nav nolist">
               <li>
                 <NavLink to="/TLavoie/" end className={({ isActive }) => (isActive ? 'active' : '')}>
-                  About LALALA
+                  About
                 </NavLink>
               </li>
               <li>
