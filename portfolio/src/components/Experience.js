@@ -1,8 +1,10 @@
 import React from 'react';
+import ProjectCard from './ProjectCard';
+import CasSet from  '../media/casset.png';
 
 function Experience() {
   return (
-    <div className="comp_item comp_item--end" id="Description">
+    <div className="comp_item comp_item--end scrollable" id="Description">
       <h1 className="space">Experience</h1>
       <div className="row padding">
         <div className="column_experience">
@@ -54,11 +56,35 @@ function Experience() {
           Calgary, Canada
         </div>
       </div>
-      <p>
+      {/* <p>
         Explore my software engineering projects on&nbsp; 
         <a href="https://github.com/tlavo">GitHub</a>.
-      </p>
-      {/* <h2 className="space">Projects</h2> */}
+      </p> */}
+      <h2 className="space">Projects</h2>
+      <div className="projects-grid">
+        <ProjectCard 
+          image={CasSet} 
+          title="CasSet" 
+          description="Description for Project 1"
+          website="https://project1.com" 
+          github="https://github.com/user/project1" 
+        />
+        <ProjectCard 
+          image="https://via.placeholder.com/150" 
+          title="Project 2" 
+          description="Description for Project 2"
+          website="https://project2.com" 
+          github="https://github.com/user/project2" 
+        />
+        <ProjectCard 
+          image="https://via.placeholder.com/150" 
+          title="Project 3" 
+          description="Description for Project 3"
+          website="https://project3.com" 
+          github="https://github.com/user/project3" 
+        />
+        {/* Add more ProjectCard components as needed */}
+      </div>
     </div>
   );
 }
