@@ -55,7 +55,7 @@ function App() {
             </p>
           </div>
           <Routes>
-            <Route path="/TLavoie/" element={<About />} />
+            <Route path="/TLavoie" element={<About />} />
             <Route path="/TLavoie/skills" element={<Skills />} />
             <Route path="/TLavoie/education" element={<Education />} />
             <Route path="/TLavoie/experience" element={<Experience />} />
