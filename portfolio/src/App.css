@@ -112,7 +112,7 @@ h4 {
 }
 
 .navbar a {
-    transition: ease-in 0.15s;
+    transition: 0.2s ease-in;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -190,12 +190,13 @@ h4 {
 
 .project-card {
     position: relative;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
+    background-color: #fde3e4;
     border-radius: 5px;
     overflow: hidden;
     text-align: left;
     transition: transform 0.3s ease;
-    height: 250px;
+    height: 248px;
 }
 
 .project-card:hover {
@@ -242,18 +243,19 @@ h4 {
 }
 
 .project-button {
+    transition: 0.3s ease;
     width: 75px;
     padding: 8px 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #484848;
     color: white;
     text-decoration: none;
 }
 
 .project-button:hover {
-    background-color: #0056b3;
+    background-color: #4e9eac;
 }
 
 @media screen and (min-width: 800px) {
