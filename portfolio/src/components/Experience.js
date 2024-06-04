@@ -4,6 +4,9 @@ import CasSet from  '../media/casset.png';
 import TheLastShow from  '../media/thelastshow.png';
 import Lotion from  '../media/lotion.png';
 import Wordle from  '../media/wordle.png';
+import AirlineFlight from  '../media/airlineflight.png';
+import DataStructsAlgos from  '../media/datastructsalgos.png';
+import WildlifeRescue from  '../media/wildliferescue.png';
 
 function Experience() {
   return (
@@ -69,9 +72,9 @@ function Experience() {
           image={CasSet} 
           title="CasSet" 
           description="Full-Stack app for users to annotate playlists, capturing intimacy of sharing music with the use of React.js, Spotify API, Flask, and MongoDB"
-          website="#" 
           github="https://github.com/kdafrose/CasSet" 
           inDevelopment={true}
+          message=<p>Sorry, this site is still in development; See the <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar">demo video</a> to preview</p>
         />
         <ProjectCard 
           image={TheLastShow} 
@@ -96,6 +99,30 @@ function Experience() {
           website="https://tlavo.github.io/Wordle/" 
           github="https://github.com/tlavo/Wordle" 
           inDevelopment={false}
+        />
+        <ProjectCard 
+          image={AirlineFlight}
+          title="Airline Flight Reservation" 
+          description="Java app using an SQL database, an access control system (data security), and the Strategy pattern for a flexible approach for UI/UX"
+          github="https://github.com/tlavo/480-Term-Project" 
+          inDevelopment={true}
+          message=<p>Sorry, this is a Java project; Download the <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar">.jar file</a> to view</p>
+        />
+        <ProjectCard 
+          image={DataStructsAlgos}
+          title="Data Structs/Algos Library" 
+          description=<p style={{ fontSize: 'medium' }}>Java library of data structures and algorithms of the types linear, node, and tree; this library can be used publicly (see <a href="https://github.com/tlavo/ensf338-final-project/blob/main/ENSF%20338%20Final%20Project.pdf">project pdf</a> for details)</p>
+          website="https://tlavo.github.io/ensf338-final-project/" 
+          github="https://github.com/tlavo/ensf338-final-project" 
+          inDevelopment={false} 
+        />
+        <ProjectCard 
+          image={WildlifeRescue}
+          title="Wildlife Rescue Scheduler" 
+          description="OOP Java app to generate a daily schedule for a wildlife rescue center with the use of SQL, and error handling and informative feedback"
+          github="https://github.com/tlavo/380-Final-Project" 
+          inDevelopment={true}
+          message=<p>Sorry, this is a Java project; Download the <a href="https://github.com/tlavo/380-Final-Project/blob/main/EWRDemo.mp4">demo video</a> to view</p>
         />
       </div>
     </div>

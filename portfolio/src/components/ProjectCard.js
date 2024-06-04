@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Popup from './Popup';
 
-function ProjectCard({ image, title, description, website, github, inDevelopment }) {
+function ProjectCard({ image, title, description, website, github, inDevelopment, message }) {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleWebsiteClick = () => {
@@ -29,7 +29,7 @@ function ProjectCard({ image, title, description, website, github, inDevelopment
       </div>
       {showPopup && (
         <Popup
-          message="Sorry, this site is still in development!"
+          message={message}
           onClose={() => setShowPopup(false)}
         />
       )}
