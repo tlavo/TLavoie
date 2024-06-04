@@ -79,11 +79,6 @@ function Education() {
           </div>
         </div>
       </div>
-      <p>
-        <i>
-          Credentials are available upon request.
-        </i>
-      </p>
     </div>
   );
 }

@@ -47,7 +47,7 @@ h4 {
 }
 
 .scrollable {
-    height: 555px; /* Adjust this height as needed */
+    height: 529px; /* Adjust this height as needed */
     overflow-y: scroll;
 }
 
@@ -93,6 +93,7 @@ h4 {
     display: table;
     clear: both;
 }
+
 /* NAVIGATION */
 .navbar {
     background: #4e9eac;
@@ -218,7 +219,6 @@ h4 {
 
 .project-card {
     position: relative;
-    /* border: 1px solid #ddd; */
     background-color: #fde3e4;
     border-radius: 5px;
     overflow: hidden;
