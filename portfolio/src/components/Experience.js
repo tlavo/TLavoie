@@ -74,7 +74,7 @@ function Experience() {
           description="Full-Stack app for users to annotate playlists, capturing intimacy of sharing music with the use of React.js, Spotify API, Flask, and MongoDB"
           github="https://github.com/kdafrose/CasSet" 
           inDevelopment={true}
-          message=<p>Sorry, this site is still in development; See the <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar">demo video</a> to preview</p>
+          message=<p>Sorry, this site is still in development; See the <a href="https://youtu.be/xplmfhf57QM">demo video</a> to preview</p>
         />
         <ProjectCard 
           image={TheLastShow} 
