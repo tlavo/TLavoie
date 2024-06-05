@@ -49,7 +49,9 @@ function App() {
       <article>
         <div className="comp">
           <div className="comp_item comp_item--start" id="Image_Name">
-            <img className="pfp" src={PFP} width="300" alt="Teresa Lavoie Pfp"/>
+            <a href="https://tlavo.github.io/TLavoie/">
+              <img className="pfp" src={PFP} width="300" alt="Teresa Lavoie Pfp"/>
+            </a>
             <h1>Teresa Lavoie</h1>
             <h4>She/Her/Hers</h4>
             <p className="email-git">
