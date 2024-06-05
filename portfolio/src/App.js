@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes, NavLink } from 'react-router-dom';
 import './App.css';
+import PFP from './media/pfp.JPG';
 import About from './components/About';
 import Skills from './components/Skills';
 import Education from './components/Education';
@@ -47,7 +48,7 @@ function App() {
       <article>
         <div className="comp">
           <div className="comp_item comp_item--start" id="Image_Name">
-            <img className="pfp" src="https://imgur.com/TCvTbxb.png" width="300" alt="Teresa Lavoie Pfp"/>
+            <img className="pfp" src={PFP} width="300" alt="Teresa Lavoie Pfp"/>
             <h1>Teresa Lavoie</h1>
             <h4>She/Her</h4>
             <p>
