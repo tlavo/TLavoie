@@ -25,7 +25,7 @@ function Interests() {
   
       <ul className="liststyle padding">
           <li><b>Movies:</b> A Cat In Paris, Fantastic Mr. Fox, 3 Idiots, Robots, Megamind, Spider-Man: Across the Spider-Verse, Poor Things, Everything Everywhere All at Once, Before trilogy, The Princess Bride, The Sound of Music</li>
-          <li><b>Shows:</b> Avatar: The Last Airbender, The Queen's Gambit, Arcane, The End of the F***ing World, Code Lyoko, Ugly Betty</li>
+          <li><b>Shows:</b> Avatar: The Last Airbender, The Queen's Gambit, Arcane, The Bear, The End of the F***ing World, Code Lyoko</li>
           <li><b>Anime:</b> Princess Mononoke, The Boy and the Heron, Howl's Moving Castle, Fullmetal Alchemist: Brotherhood, YuYu Hakusho, Nana, Trigun Stampede, Cyberpunk: Edgerunners, Promised Neverland (first season only...), Hunter x Hunter</li>
           <li><b>Games: </b> Minecraft, Outer Wilds, Hylics, Stardew Valley, Kingdom Two Crowns, The Elder Scrolls V: Skyrim</li>
           <li><b>Fashion:</b> Pattern Mixing, Jewel Tones, Whimsical Goth, Morbid Cute, Office Siren, Androgynous Fashion</li>
