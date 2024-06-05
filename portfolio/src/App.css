@@ -46,6 +46,12 @@ h4 {
     color: #e59beb;
 }
 
+.email-git {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
 .scrollable {
     height: 529px; /* Adjust this height as needed */
     overflow-y: scroll;

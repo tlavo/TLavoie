@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Routes, NavLink } from 'react-router-dom';
 import './App.css';
 import PFP from './media/pfp.JPG';
+import gh from './media/github.png';
 import About from './components/About';
 import Skills from './components/Skills';
 import Education from './components/Education';
@@ -50,9 +51,12 @@ function App() {
           <div className="comp_item comp_item--start" id="Image_Name">
             <img className="pfp" src={PFP} width="300" alt="Teresa Lavoie Pfp"/>
             <h1>Teresa Lavoie</h1>
-            <h4>She/Her</h4>
-            <p>
+            <h4>She/Her/Hers</h4>
+            <p className="email-git">
               <a href="mailto:teresa.lavoie@ucalgary.ca">teresa.lavoie@ucalgary.ca</a>
+              &nbsp;|&nbsp;
+              <img src={gh} width="25" alt="github icon"/>&nbsp;
+              <a href="https://github.com/tlavo">tlavo</a>
             </p>
           </div>
           <Routes>
