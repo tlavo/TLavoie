@@ -27,13 +27,13 @@ function About() {
       <div className="liststyle padding">
         <p className='contact-list'><img src={ph} width="19" alt="phone icon"/>&nbsp;587-719-5077</p>
         <p className='contact-list'><img src={li} width="19" alt="linkedin icon"/> 
-          &nbsp;<a href="https://www.linkedin.com/in/teresa-lavoie-0a1a44264/">Teresa Lavoie </a>
+          &nbsp;<a href="https://www.linkedin.com/in/teresa-lavoie-0a1a44264/" target="_blank" rel="noopener noreferrer">Teresa Lavoie </a>
         </p>
         <p className='contact-list'><img src={ig} width="19" alt="instagram icon"/> 
-          &nbsp;<a href="https://www.instagram.com/teresalavoie11/">teresalavoie11</a>
+          &nbsp;<a href="https://www.instagram.com/teresalavoie11/" target="_blank" rel="noopener noreferrer">teresalavoie11</a>
         </p>
         <p className='contact-list'><img src={pi} width="19" alt="instagram icon"/> 
-          &nbsp;<a href="https://www.pinterest.ca/teresamarialavoie/">teresamarialavoie</a>
+          &nbsp;<a href="https://www.pinterest.ca/teresamarialavoie/" target="_blank" rel="noopener noreferrer">teresamarialavoie</a>
         </p>
       </div>
     </div>

@@ -225,6 +225,7 @@ h4 {
 
 .project-card {
     position: relative;
+    overflow: hidden;
     background-color: #fde3e4;
     border-radius: 5px;
     overflow: hidden;
@@ -254,10 +255,11 @@ h4 {
     bottom: 0;
     left: 0;
     right: 0;
+    width: 100%;
     background: rgba(255, 255, 255, 0.9);
     transform: translateY(100%);
     transition: transform 0.3s ease;
-    padding: 16px;
+    padding: 27px 16px 16px 16px;
     box-sizing: border-box;
 }
 
@@ -265,20 +267,59 @@ h4 {
     transform: translateY(0); 
 }
 
+.project-more-button {
+    display: flex;
+    transition: 0.3s ease;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #90534f;
+    color: white;
+    border: none;
+    padding: 3px 8px 5px 9px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+}
+  
+.project-more-button:hover {
+    background-color: #783e3a;
+    border-radius: 25px;
+}
+
+.more {
+    margin-top: 2.2px;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+  
+.back-button:hover {
+    background-color: #0056b3;
+}
+
 .project-description {
     font-size: medium;
-    margin: 5px 10px;
+    margin: 5px 10px 6px 10px;
 }
 
 .project-buttons {
     display: flex;
     justify-content: space-between;
-    margin: 16px 10px 0 10px;
+    margin: 10px -1px 0 -1px;
 }
 
 .project-button {
     transition: 0.3s ease;
-    width: 75px;
+    width: 70px;
     padding: 8px 16px;
     border: none;
     border-radius: 5px;
@@ -286,6 +327,11 @@ h4 {
     background-color: #484848;
     color: white;
     text-decoration: none;
+    margin-right: 10px;
+}
+
+.project-button:last-child {
+    margin-right: 0;
 }
 
 .project-button:hover {
@@ -301,7 +347,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 935px) {
     .projects-grid {
         display: grid;
         margin-right: 30px;

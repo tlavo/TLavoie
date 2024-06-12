@@ -1,7 +1,9 @@
 import React from 'react';
 import './Popup.css';
 
-function Popup({ message, onClose }) {
+function Popup({ message, onClose, isVisible }) {
+  if (!isVisible) return null;
+
   return (
     <div className="popup-overlay">
       <div className="popup-content">

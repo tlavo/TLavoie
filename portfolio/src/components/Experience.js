@@ -77,7 +77,7 @@ function Experience() {
           description="Full-Stack app for users to annotate playlists, capturing intimacy of sharing music with the use of React.js, Spotify API, Flask, and MongoDB"
           github="https://github.com/kdafrose/CasSet" 
           inDevelopment={true}
-          message=<p>Sorry, this site is still in development; See the <a href="https://youtu.be/xplmfhf57QM">demo video</a> to preview</p>
+          message=<p>Sorry, this site is still in development; See the <a href="https://youtu.be/xplmfhf57QM" target="_blank" rel="noopener noreferrer">demo video</a> to preview</p>
         />
         <ProjectCard 
           image={TheLastShow} 
@@ -106,15 +106,15 @@ function Experience() {
         <ProjectCard 
           image={AirlineFlight}
           title="Airline Flight Reservation" 
-          description="Java app using an SQL database, an access control system (data security), and the Strategy pattern for a flexible approach for UI/UX"
+          description="Java app using an SQL database, an access control system (data security), and the Strategy pattern for a flexible UI/UX approach"
           github="https://github.com/tlavo/480-Term-Project" 
           inDevelopment={true}
-          message=<p>Sorry, this is a Java project; Download the <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar">.jar file</a> to view</p>
+          message=<p>Sorry, this is a Java project; Download the <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar" target="_blank" rel="noopener noreferrer">.jar file</a> to view</p>
         />
         <ProjectCard 
           image={DataStructsAlgos}
           title="Data Structs/Algos Library" 
-          description=<p style={{ fontSize: 'medium' }}>Java library of data structures and algorithms of the types linear, node, and tree; this library can be used publicly (see <a href="https://github.com/tlavo/ensf338-final-project/blob/main/ENSF%20338%20Final%20Project.pdf">project pdf</a> for details)</p>
+          description=<p style={{ fontSize: 'medium' }}>Java data structures and algorithms library of the types linear, node, and tree; this library can be used publicly (see <a href="https://github.com/tlavo/ensf338-final-project/blob/main/ENSF%20338%20Final%20Project.pdf" target="_blank" rel="noopener noreferrer">project pdf</a> for details)</p>
           website="https://tlavo.github.io/ensf338-final-project/" 
           github="https://github.com/tlavo/ensf338-final-project" 
           inDevelopment={false} 
@@ -125,7 +125,7 @@ function Experience() {
           description="OOP Java app to generate a daily schedule for a wildlife rescue center with the use of SQL, and error handling & informative feedback"
           github="https://github.com/tlavo/380-Final-Project" 
           inDevelopment={true}
-          message=<p>Sorry, this is a Java project; Download the <a href="https://github.com/tlavo/380-Final-Project/blob/main/EWRDemo.mp4">demo video</a> to view</p>
+          message=<p>Sorry, this is a Java project; Download the <a href="https://github.com/tlavo/380-Final-Project/blob/main/EWRDemo.mp4" target="_blank" rel="noopener noreferrer">demo video</a> to view</p>
         />
       </div>
     </div>

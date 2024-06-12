@@ -1,0 +1,50 @@
+.back-button {
+    transition: 0.3s ease;
+    background-color: #90534f;
+    width: 60px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #783e3a;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.demo-video {
+    width: 80vw; 
+    height: 45vw;
+}
+
+.project-descs {
+    font-size: medium;
+}
+
+.project-pics {
+    width: 92vw;
+    border-radius: 20px;
+    box-shadow: 
+        4px 4px 3px rgba(0, 0, 0, 0.25), /* Main shadow with slight blur */
+        4px 4px 7px rgba(0, 0, 0, 0.25), /* Additional shadow for more blur */
+        4px 4px 10px rgba(0, 0, 0, 0.25); /* Additional shadow for more blur */
+}
+
+@media screen and (min-width: 800px) {
+    .demo-video {
+        width: 56vw; 
+        height: 31.5vw;
+    }
+    .project-pics {
+        width: 62.5vw;
+        border-radius: 20px;
+        box-shadow: 
+            6px 6px 5px rgba(0, 0, 0, 0.25), /* Main shadow with slight blur */
+            6px 6px 10px rgba(0, 0, 0, 0.25), /* Additional shadow for more blur */
+            6px 6px 15px rgba(0, 0, 0, 0.25); /* Additional shadow for more blur */
+    }
+}

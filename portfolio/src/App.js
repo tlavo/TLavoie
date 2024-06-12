@@ -8,6 +8,13 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Interests from './components/Interests';
+import CasSet from './components/projects/CasSet';
+import TheLastShow from './components/projects/TheLastShow';  
+import Lotion from './components/projects/Lotion';  
+import MyWordle from './components/projects/MyWordle';  
+import AirlineFlightReservation from './components/projects/AirlineFlightReservation'; 
+import DataStructsAlgosLibrary from './components/projects/DataStructsAlgosLibrary'; 
+import WildlifeRescueScheduler from './components/projects/WildlifeRescueScheduler'; 
 
 function App() {
   return (
@@ -58,14 +65,21 @@ function App() {
               <a href="mailto:teresa.lavoie@ucalgary.ca">teresa.lavoie@ucalgary.ca</a>
               &nbsp;|&nbsp;
               <img src={gh} width="25" alt="github icon"/>&nbsp;
-              <a href="https://github.com/tlavo">tlavo</a>
+              <a href="https://github.com/tlavo" target="_blank" rel="noopener noreferrer">tlavo</a>
             </p>
           </div>
           <Routes>
             <Route path="/TLavoie/" element={<About />} />
-            <Route path="/TLavoie/skills" element={<Skills />} />
             <Route path="/TLavoie/education" element={<Education />} />
             <Route path="/TLavoie/experience" element={<Experience />} />
+            <Route path="/TLavoie/experience/CasSet" element={<CasSet />} />
+            <Route path="/TLavoie/experience/The-Last-Show" element={<TheLastShow />} />
+            <Route path="/TLavoie/experience/Lotion" element={<Lotion />} />
+            <Route path="/TLavoie/experience/My-Wordle" element={<MyWordle />} />
+            <Route path="/TLavoie/experience/Airline-Flight-Reservation" element={<AirlineFlightReservation />} />
+            <Route path="/TLavoie/experience/Data-Structs-Algos-Library" element={<DataStructsAlgosLibrary />} />
+            <Route path="/TLavoie/experience/Wildlife-Rescue-Scheduler" element={<WildlifeRescueScheduler />} />
+            <Route path="/TLavoie/skills" element={<Skills />} />
             <Route path="/TLavoie/interests" element={<Interests />} />
           </Routes>
         </div>
