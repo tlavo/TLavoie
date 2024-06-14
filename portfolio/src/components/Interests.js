@@ -2,7 +2,7 @@ import React from 'react';
 
 function Interests() {
   return (
-    <div className="comp_item comp_item--end" id="Description">
+    <div className="comp_item comp_item--end scrollable" id="Description">
       <h1 className="space">Interests</h1>
       <ul className="liststyle padding">
         <li>Reading/Writing</li>

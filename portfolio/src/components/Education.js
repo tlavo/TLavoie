@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
   return (
-    <div className="comp_item comp_item--end" id="Description">
+    <div className="comp_item comp_item--end scrollable" id="Description">
       <h1 className="space">Education</h1>
       <div className="e-list">
         <div className="e-item">

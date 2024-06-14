@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills() {
   return (
-    <div className="comp_item comp_item--end" id="Description">
+    <div className="comp_item comp_item--end scrollable" id="Description">
       <h1 className="space">Skills</h1>
       <h2 className="space2">Programming</h2>
       <div className="row padding">

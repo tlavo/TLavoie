@@ -26,12 +26,12 @@
 }
 
 .project-pics {
-    width: 92vw;
+    width: 98%;
     border-radius: 20px;
     box-shadow: 
-        4px 4px 3px rgba(0, 0, 0, 0.25), /* Main shadow with slight blur */
-        4px 4px 7px rgba(0, 0, 0, 0.25), /* Additional shadow for more blur */
-        4px 4px 10px rgba(0, 0, 0, 0.25); /* Additional shadow for more blur */
+        0.6vw 0.6vw 0.4vw rgba(0, 0, 0, 0.25), 
+        0.6vw 0.6vw 0.8vw rgba(0, 0, 0, 0.25), 
+        0.6vw 0.6vw 1.0vw rgba(0, 0, 0, 0.25); 
 }
 
 @media screen and (min-width: 800px) {
@@ -40,11 +40,11 @@
         height: 31.5vw;
     }
     .project-pics {
-        width: 62.5vw;
+        width: 98%;
         border-radius: 20px;
         box-shadow: 
-            6px 6px 5px rgba(0, 0, 0, 0.25), /* Main shadow with slight blur */
-            6px 6px 10px rgba(0, 0, 0, 0.25), /* Additional shadow for more blur */
-            6px 6px 15px rgba(0, 0, 0, 0.25); /* Additional shadow for more blur */
+            0.3vw 0.3vw 0.2vw rgba(0, 0, 0, 0.25),
+            0.3vw 0.3vw 0.65vw rgba(0, 0, 0, 0.25), 
+            0.3vw 0.3vw 0.8vw rgba(0, 0, 0, 0.25); 
     }
 }
