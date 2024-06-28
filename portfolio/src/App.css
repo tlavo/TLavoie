@@ -71,13 +71,6 @@ h4 {
     font-style: normal;
 }
 
-.contact-list {
-    display: flex;
-    align-items: center;
-    font-size: 16.5px;
-    margin-bottom: 4px;
-}
-
 .container {
     margin: 0 auto;
     padding: 0 36px;

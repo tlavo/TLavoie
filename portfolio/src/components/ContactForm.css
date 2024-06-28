@@ -1,0 +1,125 @@
+/* ContactForm.css */
+
+.contact-container {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-left, .contact-right {
+    flex: 1;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;  
+}
+
+.contact-inputs {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+    box-shadow: 
+        0.2vw 0.2vw 0.16vw rgba(0, 0, 0, 0.25), 
+        0.2vw 0.2vw 0.24vw rgba(0, 0, 0, 0.25), 
+        0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.25);
+    transition: border 0.3s ease;
+    border: 2.8px solid #fff;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2.8px solid #fde3e4;
+}
+.contact-inputs::placeholder {
+    color: #a9a9a9;
+}
+
+.submit-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 13px 25px;
+    font-size: 14px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #EFA8F4, #4e9eac);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.contact-left button:hover{
+    box-shadow: 
+        0.2vw 0.2vw 0.16vw rgba(0, 0, 0, 0.25), 
+        0.2vw 0.2vw 0.24vw rgba(0, 0, 0, 0.25), 
+        0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.25);
+}
+
+#result {
+    margin-left: 10px;
+    color: #666;
+}
+
+.contact-liststyle {
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-left, .contact-right {
+        padding: 10px;
+    }
+    .contact-inputs {
+        width: 80vw;
+    }
+    .liststyle {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .submit-section {
+        flex-direction: column;
+        align-items: start;
+    }
+}

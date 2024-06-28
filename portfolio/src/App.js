@@ -62,7 +62,7 @@ function App() {
             <h1>Teresa Lavoie</h1>
             <h4>She/Her/Hers</h4>
             <p className="email-git">
-              <a href="mailto:teresa.lavoie@ucalgary.ca">teresa.lavoie@ucalgary.ca</a>
+              <a href="mailto:teresalavoie11@gmail.com">teresalavoie11@gmail.com</a>
               &nbsp;|&nbsp;
               <img src={gh} width="25" alt="github icon"/>&nbsp;
               <a href="https://github.com/tlavo" target="_blank" rel="noopener noreferrer">tlavo</a>
