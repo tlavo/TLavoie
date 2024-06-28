@@ -11,7 +11,7 @@ function Education() {
             University of Calgary
           </div>
           <div className="e-dates">
-            2021-2025 <br />
+            Expected May 2026 <br />
             Calgary, Canada
           </div>
         </div>
