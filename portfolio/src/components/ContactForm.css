@@ -1,13 +1,10 @@
 /* ContactForm.css */
 
 .contact-container {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-evenly; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .contact-content {
@@ -15,6 +12,9 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    background-color: #fde3e4;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .contact-left, .contact-right {
@@ -53,7 +53,7 @@
 }
 
 .contact-inputs:focus {
-    border: 2.8px solid #fde3e4;
+    border: 2.8px solid #bba4da;
 }
 .contact-inputs::placeholder {
     color: #a9a9a9;
@@ -92,7 +92,7 @@
 }
 
 .contact-liststyle {
-    margin-left: 60px;
+    margin-left: 80px;
     margin-bottom: 15px;
 }
 
@@ -103,7 +103,7 @@
     margin: 25px 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and ((min-width: 800px) and (max-width: 980px)) {
     .contact-content {
         flex-direction: column;
         align-items: center;
@@ -118,8 +118,21 @@
         margin-left: 0;
         margin-bottom: 15px;
     }
-    .submit-section {
+}
+
+@media screen and (max-width: 650px) {
+    .contact-content {
         flex-direction: column;
-        align-items: start;
+        align-items: center;
+    }
+    .contact-left, .contact-right {
+        padding: 10px;
+    }
+    .contact-inputs {
+        width: 80vw;
+    }
+    .contact-liststyle {
+        margin-left: 0;
+        margin-bottom: 15px;
     }
 }
