@@ -3,6 +3,7 @@ import './ContactForm.css';
 import li from '../media/linkedin.png';
 import ig from '../media/instagram.png';
 import pi from '../media/pinterest.png';
+import arrow from '../media/arrow.png';
 
 function ContactForm() {
     const formRef = useRef(null);
@@ -62,7 +63,7 @@ function ContactForm() {
                     <input type="text" name="email" placeholder="Email" className="contact-inputs" required></input>
                     <textarea name="message" placeholder="Your Message" className="contact-inputs" required></textarea>
                     <div className="submit-section">
-                        <button type="submit">Submit &#8618;</button>
+                        <button type="submit">Submit<img src={arrow} alt=""></img></button>
                         <div ref={resultRef} id="result"></div>
                     </div>
                 </form>

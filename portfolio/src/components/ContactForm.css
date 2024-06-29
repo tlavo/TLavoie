@@ -78,6 +78,9 @@
     cursor: pointer;
     transition: box-shadow 0.3s ease;
 }
+.contact-left button img{
+    height: 12px;
+}
 
 .contact-left button:hover{
     box-shadow: 
