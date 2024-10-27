@@ -6,7 +6,7 @@ function About() {
     <div className="comp_item comp_item--end scrollable" id="Description">
       <h1 className="space">Hi, I'm Teresa.</h1>
       <p className="padding">
-        I'm studying <i>Software Engineering</i> at the University of Calgary, and I just completing my third year.
+        I'm studying <i>Software Engineering</i> at the University of Calgary, and I am on internship with Mobiltex after completing my third year of studies.
       </p>
       <p className="padding">
         A project I'm working on right now is <i>"CasSet"</i>, a social media, music app connected with the Spotify API.

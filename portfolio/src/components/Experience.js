@@ -13,6 +13,17 @@ function Experience() {
     <div className="comp_item comp_item--end scrollable" id="Description">
       <h1 className="space">Experience</h1>
       <div className="e-list">
+      <div className="e-item">
+          <div className="e-details">
+            <strong>Software Developer Intern</strong><br />
+            Mobiltex Data Ltd.
+          </div>
+          <div className="e-dates">
+            September 2024-August 2025<br />
+            Calgary, Canada
+          </div>
+        </div>
+
         <div className="e-item">
           <div className="e-details">
             <strong>Volunteer - Women in Engineering Day Event</strong><br />
@@ -30,7 +41,7 @@ function Experience() {
             Lavoie Contracting and Design
           </div>
           <div className="e-dates">
-            2018-Present<br />
+            2018-2024<br />
             Calgary, Canada
           </div>
         </div>
@@ -53,17 +64,6 @@ function Experience() {
           </div>
           <div className="e-dates">
             2018-2020<br />
-            Calgary, Canada
-          </div>
-        </div>
-
-        <div className="e-item">
-          <div className="e-details">
-            <strong>Volunteering</strong><br />
-            Westwood Cultural Centre
-          </div>
-          <div className="e-dates">
-            2016-2019<br />
             Calgary, Canada
           </div>
         </div>
