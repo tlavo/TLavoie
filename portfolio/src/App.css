@@ -145,6 +145,7 @@ h4 {
 }
 
 .pfp {
+    height: 390px;
     border: 14px solid #fde3e4;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
@@ -327,6 +328,10 @@ h4 {
     }
     .comp {
         flex-direction: row;
+    }
+    .comp_item {
+        padding-top: calc(50vh - 300px);
+        flex: 1;
     }
     .comp_item--start {
         position: absolute;

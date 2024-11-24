@@ -12,10 +12,19 @@ function CasSet() {
       <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
       <h1 className="space">CasSet</h1>
       <p className="padding">CasSet is a convenient place to customize and write notes for playlists without using several apps together.</p>
-      
+
       <div className="center-container">
-        <iframe className="demo-video" src="https://www.youtube.com/embed/xplmfhf57QM?si=7p-NnxD3r3myZpNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe className="demo-video"
+          src="https://www.youtube.com/embed/4GxPFEq-KxA?si=h-70RxmdbgpQ0weS" 
+          title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+        </iframe>
       </div>
+      <h4 style={{ textAlign: 'center' }}>
+        For the best viewing experience, set the video quality to the highest available in the settings menu.
+      </h4>
 
       <h2 className="space">Project Purpose and Goal</h2>
       <p className="project-descs">CasSet is inspired by the old trend from the 1970’s to 1980’s when the youth would create mixtapes on their cassette recorders for the sole purpose to share it with their friends or loved ones. This sharing of songs and the sincereness of the act is something that was lost in the digital age as people can create online playlists that can be sent over a message through links. We wanted to capture the intimacy of sharing something special, even though it’s small, with your loved ones and friends.</p>
@@ -31,7 +40,7 @@ function CasSet() {
         <img className="project-pics padding" src={data} alt="casset database"/>
       </div>
 
-      <h2 className="space">Problems and Throught Process</h2>
+      <h2 className="space">Problems and Thought Process</h2>
       <p className="project-descs padding">Connecting the notes functionality to show with its respective song was difficult with the Spotify API because sometimes when the user clicks the previous button of the music player, the song restarts rather than moving back a song in the playlist. Also, after the playlist has played all its songs, rather than the playlist restarting, after the next button is clicked, the playlist moves onto recommended songs based on the Spotify playlist and the users preferences. This additional functionality with the Spotify API music player, made presenting the right note with its respective song challenging, and with the time constraints of the project, this functionality was not implemented before the due date. Initially, this task did not seem as complex, but with earlier research of this part of the Spotify API, this could’ve held higher priority in the project timeline. I implemented this functionality through accessing the track ID, and matching that ID within the database, since that is how the song information was stored.</p>
       <h4 style={{ textAlign: 'center' }}>Stay tuned for the deployment of this application!</h4>
     </div>
