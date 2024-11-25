@@ -21,7 +21,7 @@ function Education() {
         <div className="e-item">
           <div className="e-details">
             <strong>
-              <a href="https://badges.ucalgary.ca/achievements/f383fdb956efed98751489f67058eb9a">Engineering Leadership Tier 2 Badge</a>
+              <a href="https://badges.ucalgary.ca/achievements/f383fdb956efed98751489f67058eb9a" target="_blank" rel="noopener noreferrer">Engineering Leadership Tier 2 Badge</a>
             </strong> <br />
             University of Calgary
           </div>
@@ -34,7 +34,7 @@ function Education() {
         <div className="e-item">
           <div className="e-details">
             <strong>
-              <a href="https://badges.ucalgary.ca/achievements/d15ae7067da9b53171571b468c27c008">Engineering Leadership Tier 1 Badge</a>
+              <a href="https://badges.ucalgary.ca/achievements/d15ae7067da9b53171571b468c27c008" target="_blank" rel="noopener noreferrer">Engineering Leadership Tier 1 Badge</a>
             </strong> <br />
             University of Calgary
           </div>
@@ -47,7 +47,7 @@ function Education() {
         <div className="e-item">
           <div className="e-details">
             <strong>
-              <a href="https://badges.ucalgary.ca/achievements/f7d7769110bffbda1bc10b5bd12166bc">Engineering Entrepreneurship Badge</a>
+              <a href="https://badges.ucalgary.ca/achievements/f7d7769110bffbda1bc10b5bd12166bc" target="_blank" rel="noopener noreferrer">Engineering Entrepreneurship Badge</a>
             </strong> <br />
             University of Calgary
           </div>
