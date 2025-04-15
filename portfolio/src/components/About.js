@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 
 function About() {
   return (
-    <div className="comp_item comp_item--end scrollable" id="Description">
+    <div className="comp_item main-content scrollable" id="Description">
       <h1 className="space">Hi, I'm Teresa.</h1>
       <p className="padding">
         I'm studying <i>Software Engineering</i> at the University of Calgary, and I am on internship with Mobiltex after completing my third year of studies.

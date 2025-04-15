@@ -93,6 +93,20 @@ h4 {
     clear: both;
 }
 
+.bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 8px;
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+
+.bar-fill {
+    height: 100%;
+    background: linear-gradient(to right, #a68dc7, #EFA8F4);
+    border-radius: 5px;
+}
+
 /* NAVIGATION */
 .navbar {
     background: #4e9eac;
@@ -140,26 +154,75 @@ h4 {
 }
 
 .comp_item {
-    padding-top: 2.5rem;
     flex: 1;
 }
 
 .pfp {
-    height: 390px;
-    border: 14px solid #fde3e4;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
+    width: 75%;
+    min-width: 300px;
+    border-width: min(14px);
+    border: 1.2vw solid #fde3e4;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
 }
 
-.comp_item--start {
+@media (max-width: 800px) {
+    .image-content {
+        padding-top: 2.5rem;
+    }
+    
+    .pfp {
+        width: 300px;
+        border: 14px solid #fde3e4;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+    }
+}
+
+@media (max-height: 580px) and (min-width: 800px)  {
+    .pfp {
+        object-fit: cover;
+        min-width: 0;
+        width: 48vh;
+        height: 48vh;
+        border: 2.5vh solid #fde3e4;
+        border-radius: 50%;
+    }
+}
+
+
+@media (max-height: 400px) and (min-width: 800px)  {
+    .image-content {
+        margin-top: -3.5em;
+    }
+
+    .pfp {
+        position: relative;
+        right: 90px;
+        top: 55px;
+        object-fit: cover;
+        min-width: 0;
+        width: 65px;
+        height: 65px;
+        border: 5px solid #fde3e4;
+        border-radius: 50%;
+    }
+
+    .pfp-name {
+        margin-left: 80px;
+    }
+}
+
+.image-content {
     text-align: center;
     order: -1;
+    flex: 1;
 }
 
-.comp_item--end {
-    margin: 0 1.5vw;
+.main-content {
+    margin: 0 10px;
     padding-bottom: 15px;
-    flex: 2;
+    flex: 1;
 }
 
 /* EXPERIENCE & EDUCATION STYLE */
@@ -330,19 +393,19 @@ h4 {
         flex-direction: row;
     }
     .comp_item {
-        padding-top: calc(50vh - 300px);
         flex: 1;
     }
-    .comp_item--start {
-        position: absolute;
-        left: 65px;
-        z-index: 1;
+    .image-content {
+        padding: 10px 0 10px 10px;
         text-align: center;
+        align-self: center;
         order: -1;
+        flex: 1;
     }
-    .comp_item--end {
-        padding: 0 1.5vw 15px 420px;
-        height: calc(100vh - 110px);
+    .main-content {
+        padding: 0 10px 10px 10px;
+        height: calc(100vh - 94px);
+        flex: 2;
     }
     .column_skills {
         margin-left: 20px;
@@ -363,12 +426,11 @@ h4 {
 }
 
 /*FOOTER STYLING*/
-header {min-height:50px;}
+header { min-height:50px; }
 article { flex:1; } /* The article fills all the space between header & footer */
 footer {
     border-top: 1.5px solid #4e9eac;
     text-align: center;
-    padding: 15px;
-    font-size: 15px;
-    height: 50px;
+    padding: 8px;
+    font-size: 11px;
 }

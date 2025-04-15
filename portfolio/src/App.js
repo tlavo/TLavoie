@@ -55,11 +55,11 @@ function App() {
 
       <article>
         <div className="comp">
-          <div className="comp_item comp_item--start" id="Image_Name">
+          <div className="image-content">
             <a href="https://tlavo.github.io/TLavoie/">
               <img className="pfp" src={PFP} alt="Teresa Lavoie Pfp"/>
             </a>
-            <h1>Teresa Lavoie</h1>
+            <h1 className="pfp-name">Teresa Lavoie</h1>
             <h4>She/Her/Hers</h4>
             <p className="email-git">
               <a href="mailto:teresalavoie11@gmail.com">teresalavoie11@gmail.com</a>
@@ -85,7 +85,7 @@ function App() {
         </div>
       </article>
 
-      <footer>© Teresa Lavoie 2024</footer>
+      <footer>© Teresa Lavoie {(new Date().getFullYear())}</footer>
     </div>
   );
 }

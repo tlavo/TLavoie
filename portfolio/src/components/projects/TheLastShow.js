@@ -5,7 +5,7 @@ function TheLastShow() {
   const navigate = useNavigate();
 
   return (
-    <div className="comp_item comp_item--end" id="Description">
+    <div className="comp_item main-content" id="Description">
       <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
       <h1 className="space">The Last Show</h1>
       <p>Details about The Last Show project...</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills() {
   return (
-    <div className="comp_item comp_item--end scrollable" id="Description">
+    <div className="comp_item main-content scrollable" id="Description">
       <h1 className="space">Skills</h1>
       <h2 className="space2">Programming</h2>
       <div className="row padding">
@@ -21,16 +21,36 @@ function Skills() {
         </div>
         <div className="column_skills">
           <strong>Expertise</strong> <br />
-          <progress id="file1" value="80" max="100"> 80% </progress> <br />
-          <progress id="file2" value="75" max="100"> 75% </progress> <br />
-          <progress id="file3" value="90" max="100"> 90% </progress> <br />
-          <progress id="file4" value="95" max="100"> 95% </progress> <br />
-          <progress id="file5" value="95" max="100"> 95% </progress> <br />
-          <progress id="file6" value="100" max="100"> 100% </progress> <br />
-          <progress id="file7" value="95" max="100"> 95% </progress> <br />
-          <progress id="file8" value="80" max="100"> 80% </progress> <br />
-          <progress id="file9" value="75" max="100"> 75% </progress> <br />
-          <progress id="file10" value="100" max="100"> 100% </progress>
+          <div className="bar-container" id="file1">
+            <div className="bar-fill" style={{ width: `${80}%` }} />
+          </div>
+          <div className="bar-container" id="file2">
+            <div className="bar-fill" style={{ width: `${75}%` }} />
+          </div>
+          <div className="bar-container" id="file3">
+            <div className="bar-fill" style={{ width: `${90}%` }} />
+          </div>
+          <div className="bar-container" id="file4">
+            <div className="bar-fill" style={{ width: `${95}%` }} />
+          </div>
+          <div className="bar-container" id="file5">
+            <div className="bar-fill" style={{ width: `${95}%` }} />
+          </div>
+          <div className="bar-container" id="file6">
+            <div className="bar-fill" style={{ width: `${100}%` }} />
+          </div>
+          <div className="bar-container" id="file7">
+            <div className="bar-fill" style={{ width: `${95}%` }} />
+          </div>
+          <div className="bar-container" id="file8">
+            <div className="bar-fill" style={{ width: `${80}%` }} />
+          </div>
+          <div className="bar-container" id="file9">
+            <div className="bar-fill" style={{ width: `${75}%` }} />
+          </div>
+          <div className="bar-container" id="file10">
+            <div className="bar-fill" style={{ width: `${100}%` }} />
+          </div>
         </div>
       </div>
       <h2 className="space2">Software</h2>
@@ -43,9 +63,15 @@ function Skills() {
         </div>
         <div className="column_skills">
           <strong>Expertise</strong> <br />
-          <progress id="file11" value="80" max="100"> 80% </progress> <br />
-          <progress id="file12" value="100" max="100"> 100% </progress> <br />
-          <progress id="file13" value="90" max="100"> 90% </progress>
+          <div className="bar-container" id="file11">
+            <div className="bar-fill" style={{ width: `${80}%` }} />
+          </div>
+          <div className="bar-container" id="file12">
+            <div className="bar-fill" style={{ width: `${100}%` }} />
+          </div>
+          <div className="bar-container" id="file13">
+            <div className="bar-fill" style={{ width: `${100}%` }} />
+          </div>
         </div>
       </div>
     </div>

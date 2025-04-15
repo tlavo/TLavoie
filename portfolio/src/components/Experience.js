@@ -10,7 +10,7 @@ import WildlifeRescue from  '../media/wildliferescue.png';
 
 function Experience() {
   return (
-    <div className="comp_item comp_item--end scrollable" id="Description">
+    <div className="comp_item main-content scrollable" id="Description">
       <h1 className="space">Experience</h1>
       <div className="e-list">
       <div className="e-item">
