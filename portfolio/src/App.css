@@ -404,7 +404,7 @@ h4 {
     }
     .main-content {
         padding: 0 10px 10px 10px;
-        height: calc(100vh - 94px);
+        height: calc(100vh - 95px);
         flex: 2;
     }
     .column_skills {
