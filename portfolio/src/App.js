@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Routes, NavLink } from 'react-router-dom';
 import './App.css';
 import PFP from './media/pfp.JPG';
+import LOGO from './media/logo.png';
 import gh from './media/github.png';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -85,7 +86,12 @@ function App() {
         </div>
       </article>
 
-      <footer>© Teresa Lavoie {(new Date().getFullYear())}</footer>
+      <footer>
+        <a href="https://tlavo.github.io/TLavoie/">
+          <img className="logo" src={LOGO} alt="Teresa Lavoie Pfp"/>
+        </a>
+        © Teresa Lavoie {(new Date().getFullYear())}
+      </footer>
     </div>
   );
 }

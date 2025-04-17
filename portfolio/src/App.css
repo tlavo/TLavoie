@@ -429,8 +429,18 @@ h4 {
 header { min-height:50px; }
 article { flex:1; } /* The article fills all the space between header & footer */
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-top: 1.5px solid #4e9eac;
     text-align: center;
-    padding: 8px;
-    font-size: 11px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.logo {
+    margin: 3px 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
 }
