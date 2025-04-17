@@ -404,7 +404,7 @@ h4 {
     }
     .main-content {
         padding: 0 10px 10px 10px;
-        height: calc(100vh - 95px);
+        height: calc(100vh - 96px);
         flex: 2;
     }
     .column_skills {
@@ -430,6 +430,7 @@ header { min-height:50px; }
 article { flex:1; } /* The article fills all the space between header & footer */
 footer {
     display: flex;
+    height: 34px;
     align-items: center;
     justify-content: center;
     border-top: 1.5px solid #4e9eac;
