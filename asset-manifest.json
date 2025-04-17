@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TLavoie/static/css/main.ddc8a04d.css",
-    "main.js": "/TLavoie/static/js/main.db33475a.js",
+    "main.css": "/TLavoie/static/css/main.b2d01d0d.css",
+    "main.js": "/TLavoie/static/js/main.06dd512f.js",
     "static/js/453.1407b060.chunk.js": "/TLavoie/static/js/453.1407b060.chunk.js",
     "static/media/thelastshow.png": "/TLavoie/static/media/thelastshow.3a32f9c0b114b147e732.png",
     "static/media/wildliferescue.png": "/TLavoie/static/media/wildliferescue.be290612ff5632c87ae7.png",
@@ -14,16 +14,17 @@
     "static/media/wordle.png": "/TLavoie/static/media/wordle.f94aa58c351d19894eff.png",
     "static/media/casset_arch.png": "/TLavoie/static/media/casset_arch.8f2c29c552542402792d.png",
     "static/media/instagram.png": "/TLavoie/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/logo.png": "/TLavoie/static/media/logo.011395d1bdc30525041a.png",
     "static/media/github.png": "/TLavoie/static/media/github.22cfdd1cba253783ce51.png",
     "static/media/pinterest.png": "/TLavoie/static/media/pinterest.49ca89a8e1ce086ec17d.png",
     "static/media/linkedin.png": "/TLavoie/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/TLavoie/index.html",
-    "main.ddc8a04d.css.map": "/TLavoie/static/css/main.ddc8a04d.css.map",
-    "main.db33475a.js.map": "/TLavoie/static/js/main.db33475a.js.map",
+    "main.b2d01d0d.css.map": "/TLavoie/static/css/main.b2d01d0d.css.map",
+    "main.06dd512f.js.map": "/TLavoie/static/js/main.06dd512f.js.map",
     "453.1407b060.chunk.js.map": "/TLavoie/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc8a04d.css",
-    "static/js/main.db33475a.js"
+    "static/css/main.b2d01d0d.css",
+    "static/js/main.06dd512f.js"
   ]
 }
