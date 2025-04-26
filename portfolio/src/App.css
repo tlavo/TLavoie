@@ -7,7 +7,9 @@
 
 .body {
     background-color: #fdfbf3;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     min-height: 100vh; max-height: 100vh; margin: 0;
     display:flex; flex-direction:column;
 } 
@@ -18,7 +20,9 @@ p {
 }
 
 h1 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
     color: #000;
 }
 
@@ -27,8 +31,9 @@ h1.space {
 }
 
 h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: large;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 600;
+    font-size: larger;
     color: #000;
 }
 
@@ -44,6 +49,12 @@ h2.space2 {
 
 h4 {
     color: #e59beb;
+}
+
+button {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .email-git {
@@ -66,7 +77,7 @@ h4 {
 
 .nolist {
     list-style-type: none;
-    font-family: "Libre Baskerville", serif;
+    font-family: "Modern Antiqua", serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -85,6 +96,7 @@ h4 {
     margin-left: 20px;
     float: left;
     width: 32vw;
+    line-height: 1.4;
 }
 
 .row:after {
@@ -98,7 +110,7 @@ h4 {
     border-radius: 5px;
     height: 8px;
     width: 100%;
-    margin: 10px 0 15px 0;
+    margin: 8px 0 14.5px 0;
 }
 
 .bar-fill {
@@ -118,7 +130,7 @@ h4 {
     transition: 0.2s ease-in;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bold;
 }
 
@@ -435,7 +447,7 @@ footer {
     justify-content: center;
     border-top: 1.5px solid #4e9eac;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .logo {
