@@ -170,7 +170,7 @@ button {
 }
 
 .pfp {
-    width: 75%;
+    width: 70%;
     min-width: 300px;
     border-width: min(14px);
     border: 1.2vw solid #fde3e4;
@@ -191,7 +191,7 @@ button {
     }
 }
 
-@media (max-height: 580px) and (min-width: 800px)  {
+@media (max-height: 590px) and (min-width: 800px) {
     .pfp {
         object-fit: cover;
         min-width: 0;
@@ -203,7 +203,7 @@ button {
 }
 
 
-@media (max-height: 400px) and (min-width: 800px)  {
+@media (max-height: 400px) and (min-width: 800px) {
     .image-content {
         margin-top: -3.5em;
     }
@@ -226,6 +226,7 @@ button {
 }
 
 .image-content {
+    margin-top: 5px;
     text-align: center;
     order: -1;
     flex: 1;
@@ -442,7 +443,7 @@ header { min-height:50px; }
 article { flex:1; } /* The article fills all the space between header & footer */
 footer {
     display: flex;
-    height: 34px;
+    height: 36px;
     align-items: center;
     justify-content: center;
     border-top: 1.5px solid #4e9eac;
