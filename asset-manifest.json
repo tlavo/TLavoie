@@ -1,30 +1,41 @@
 {
   "files": {
-    "main.css": "/TLavoie/static/css/main.14458007.css",
-    "main.js": "/TLavoie/static/js/main.06dd512f.js",
+    "main.css": "/TLavoie/static/css/main.8573ef3f.css",
+    "main.js": "/TLavoie/static/js/main.71680652.js",
     "static/js/453.1407b060.chunk.js": "/TLavoie/static/js/453.1407b060.chunk.js",
+    "static/media/familyofslush.png": "/TLavoie/static/media/familyofslush.baaa75a38627450bcf74.png",
+    "static/media/PageLayout.png": "/TLavoie/static/media/PageLayout.3a401683f0d36ee5cbbc.png",
     "static/media/thelastshow.png": "/TLavoie/static/media/thelastshow.3a32f9c0b114b147e732.png",
+    "static/media/weemodel.png": "/TLavoie/static/media/weemodel.eb899d0395c459d06653.png",
     "static/media/wildliferescue.png": "/TLavoie/static/media/wildliferescue.be290612ff5632c87ae7.png",
     "static/media/pfp.JPG": "/TLavoie/static/media/pfp.03f3bf3475fd44ea45d3.JPG",
     "static/media/casset.png": "/TLavoie/static/media/casset.1ca4a6ac1233276e389d.png",
     "static/media/airlineflight.png": "/TLavoie/static/media/airlineflight.7b87df4d7b147cd68e7f.png",
     "static/media/datastructsalgos.png": "/TLavoie/static/media/datastructsalgos.0cb54d9e18d9e2d3bec0.png",
+    "static/media/DragonFruitBefore.png": "/TLavoie/static/media/DragonFruitBefore.831b7f0af35491cdf217.png",
+    "static/media/DragonFruitAfter.png": "/TLavoie/static/media/DragonFruitAfter.8c856bc4a06af111b3db.png",
+    "static/media/DragonFruitAfterOffset.png": "/TLavoie/static/media/DragonFruitAfterOffset.00ec98221ea3326f4c05.png",
+    "static/media/buttonresearch1.jpg": "/TLavoie/static/media/buttonresearch1.3fc9053d8ee7c177f624.jpg",
     "static/media/lotion.png": "/TLavoie/static/media/lotion.0ce73552f6afaadd56ba.png",
+    "static/media/buttonsketches.jpg": "/TLavoie/static/media/buttonsketches.c80524e74643cae75011.jpg",
     "static/media/casset_data.png": "/TLavoie/static/media/casset_data.da78032498f7d5a439e3.png",
+    "static/media/buttonresearch2.jpg": "/TLavoie/static/media/buttonresearch2.344dab045f0dfe7add33.jpg",
     "static/media/wordle.png": "/TLavoie/static/media/wordle.f94aa58c351d19894eff.png",
     "static/media/casset_arch.png": "/TLavoie/static/media/casset_arch.8f2c29c552542402792d.png",
+    "static/media/receiptsite.png": "/TLavoie/static/media/receiptsite.cbce1f9b7c9e1c165b40.png",
     "static/media/instagram.png": "/TLavoie/static/media/instagram.ac32ec0a111aeba03298.png",
     "static/media/logo.png": "/TLavoie/static/media/logo.011395d1bdc30525041a.png",
     "static/media/github.png": "/TLavoie/static/media/github.22cfdd1cba253783ce51.png",
     "static/media/pinterest.png": "/TLavoie/static/media/pinterest.49ca89a8e1ce086ec17d.png",
+    "static/media/receiptdraw.png": "/TLavoie/static/media/receiptdraw.70d12f3bcf040783f1db.png",
     "static/media/linkedin.png": "/TLavoie/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/TLavoie/index.html",
-    "main.14458007.css.map": "/TLavoie/static/css/main.14458007.css.map",
-    "main.06dd512f.js.map": "/TLavoie/static/js/main.06dd512f.js.map",
+    "main.8573ef3f.css.map": "/TLavoie/static/css/main.8573ef3f.css.map",
+    "main.71680652.js.map": "/TLavoie/static/js/main.71680652.js.map",
     "453.1407b060.chunk.js.map": "/TLavoie/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14458007.css",
-    "static/js/main.06dd512f.js"
+    "static/css/main.8573ef3f.css",
+    "static/js/main.71680652.js"
   ]
 }
