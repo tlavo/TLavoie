@@ -19,7 +19,7 @@ function FamilyOfSlush() {
             <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
             <h1 className="space">Family of Slush</h1>
             <p className="padding">Family of Slush is a rich website experience to depict my <i>"HCI II"</i> group's similarities,
-                differences, and dynamics in a novel and creative way. Feel free to visit the&nbsp;
+                differences, and dynamics through buttons in a novel and creative way. Feel free to visit the&nbsp;
                 <a href="https://zakisalam223.github.io/CPSC581Group6Project1/"
                     target="_blank" rel="noopener noreferrer">deployed website</a>!</p>
 
@@ -63,9 +63,35 @@ function FamilyOfSlush() {
             </p>
 
             <h2 className="space">Individual Contributions</h2>
+            <p className="project-descs padding">
+                <b>MY BUTTON:</b> The images below have my research/sketches that led up to my final design.
+                I first decided on the magenta colored (on the outer skin) version of a dragon fruit, as
+                there are different variations (such as yellow). This is one of my favourite colors, but
+                also represents me well. Some color psychology of magenta include aspects of harmony,
+                emotional balance, transformation, uplifting, cheerfulness, and creativity. In general, I
+                try to focus on balance in my everyday life, so I thought it was very fitting that green
+                (also on the outer skin) is a color that balances out magenta.
+            </p>
+            <div className="dragon-fruit-research center-container">
+                <img className="research-1" src={buttonresearch1} alt="dragon fruit button research 1" />
+                <img className="research-2  " src={buttonresearch2} alt="dragon fruit button research 2" />
+            </div>
+            <div className="padding">
+                <h4 style={{ textAlign: 'center' }}>
+                    Images of my dragon fruit button research
+                </h4>
+            </div>
+            <div className="center-container">
+                <img className="dragon-fruit-sketches-img" src={buttonsketches} alt="dragon fruit button sketches" />
+            </div>
+            <div className="padding">
+                <h4 style={{ textAlign: 'center' }}>
+                    Image of my dragon fruit button sketches
+                </h4>
+            </div>
 
             <p className="project-descs">
-                <b>MY BUTTON:</b>
+                Some sensory/personal aspects of my button design:
             </p>
             <div className="project-descs-bullets padding">
                 <p>
@@ -96,34 +122,6 @@ function FamilyOfSlush() {
                     my button there are a few of these leaves.
                 </p>
             </div>
-
-            <p className="project-descs padding">
-                The images below have my research/sketches that led up to my final design. I first decided on
-                the magenta version of a dragon fruit, as there are different variations (such as yellow).
-                This is one of my favourite colors, but also represents me well. Some color psychology of
-                magenta include aspects of harmony, emotional balance, transformation, uplifting,
-                cheerfulness, and creativity. In general, I try to focus on balance in my everyday life,
-                so I thought it was very fitting that green (also on the outer skin) is a color that
-                balances out magenta (on outer skin).
-            </p>
-            <div className="dragon-fruit-research center-container">
-                <img className="research-1" src={buttonresearch1} alt="dragon fruit button research 1" />
-                <img className="research-2  " src={buttonresearch2} alt="dragon fruit button research 2" />
-            </div>
-            <div className="padding">
-                <h4 style={{ textAlign: 'center' }}>
-                    Images of my dragon fruit button research
-                </h4>
-            </div>
-            <div className="center-container">
-                <img className="dragon-fruit-sketches-img" src={buttonsketches} alt="dragon fruit button sketches" />
-            </div>
-            <div className="padding">
-                <h4 style={{ textAlign: 'center' }}>
-                    Image of my dragon fruit button sketches
-                </h4>
-            </div>
-
             <p className="project-descs padding">
                 Below are the 3 frames of my button designs (designed in Photopea).
                 The first frame is the default frame when you have not interacted with my button at all,
@@ -169,8 +167,8 @@ function FamilyOfSlush() {
             <p className="project-descs padding">
                 <b>RECEIPT DRAWING/UI:</b> Since the website is an experience of a convenience-like store,
                 the user is expected to have a receipt, which was decided on in ideation with my team members.
-                I took on this design task, and following the decided upon drawn style of website components,
-                I drew a receipt in Microsoft Paint, referencing receipts online.
+                I took on this design task, and following the decided upon drawn style of website components.
+                I ended up drawing the receipt in Microsoft Paint, while referencing the look of receipts online.
             </p>
             <p className="project-descs padding">
                 After I finished drawing and designing the receipt, I also inputted this into the website (HTML,
@@ -189,7 +187,8 @@ function FamilyOfSlush() {
 
             <p className="project-descs padding">
                 <b>SLUSH DESCRIPTIONS & ERROR HANDLING:</b> I wanted the website itself to have a distinct
-                personality and feel to it. I emulated this in the way I wrote the slushy receipt descriptions
+                personality and feel to it just how all group dynamics have - a bit silly, maybe a bit sassy,
+                but straight to the point! I emulated this in the way I wrote the slushy receipt descriptions
                 (an example can be seen in the receipt image above), as well as the error handling pop-ups.
             </p>
 

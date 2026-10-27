@@ -20,7 +20,7 @@ function Experience() {
             Mobiltex Data Ltd.
           </div>
           <div className="e-dates">
-            Septermber 2025-April 2026<br />
+            September 2025-April 2026<br />
             Calgary, Canada
           </div>
         </div>
