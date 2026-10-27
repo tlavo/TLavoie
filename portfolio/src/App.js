@@ -9,13 +9,15 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Interests from './components/Interests';
+import FamilyOfSlush from './components/projects/FamilyOfSlush';
+import WeeModel from './components/projects/WeeModel';
 import CasSet from './components/projects/CasSet';
-import TheLastShow from './components/projects/TheLastShow';  
-import Lotion from './components/projects/Lotion';  
-import MyWordle from './components/projects/MyWordle';  
-import AirlineFlightReservation from './components/projects/AirlineFlightReservation'; 
-import DataStructsAlgosLibrary from './components/projects/DataStructsAlgosLibrary'; 
-import WildlifeRescueScheduler from './components/projects/WildlifeRescueScheduler'; 
+import TheLastShow from './components/projects/TheLastShow';
+import Lotion from './components/projects/Lotion';
+import MyWordle from './components/projects/MyWordle';
+import AirlineFlightReservation from './components/projects/AirlineFlightReservation';
+import DataStructsAlgosLibrary from './components/projects/DataStructsAlgosLibrary';
+import WildlifeRescueScheduler from './components/projects/WildlifeRescueScheduler';
 
 function App() {
   return (
@@ -58,14 +60,14 @@ function App() {
         <div className="comp">
           <div className="image-content">
             <a href="https://tlavo.github.io/TLavoie/">
-              <img className="pfp" src={PFP} alt="Teresa Lavoie Pfp"/>
+              <img className="pfp" src={PFP} alt="Teresa Lavoie Pfp" />
             </a>
             <h1 className="pfp-name">Teresa Lavoie</h1>
             <h4>She/Her/Hers</h4>
             <p className="email-git">
               <a href="mailto:teresalavoie11@gmail.com">teresalavoie11@gmail.com</a>
               &nbsp;|&nbsp;
-              <img src={gh} width="25" alt="github icon"/>&nbsp;
+              <img src={gh} width="25" alt="github icon" />&nbsp;
               <a href="https://github.com/tlavo" target="_blank" rel="noopener noreferrer">tlavo</a>
             </p>
           </div>
@@ -73,6 +75,8 @@ function App() {
             <Route path="/TLavoie/" element={<About />} />
             <Route path="/TLavoie/education" element={<Education />} />
             <Route path="/TLavoie/experience" element={<Experience />} />
+            <Route path="/TLavoie/experience/Family-of-Slush" element={<FamilyOfSlush />} />
+            <Route path="/TLavoie/experience/WeeModel" element={<WeeModel />} />
             <Route path="/TLavoie/experience/CasSet" element={<CasSet />} />
             <Route path="/TLavoie/experience/The-Last-Show" element={<TheLastShow />} />
             <Route path="/TLavoie/experience/Lotion" element={<Lotion />} />
@@ -88,7 +92,7 @@ function App() {
 
       <footer>
         <a href="https://tlavo.github.io/TLavoie/">
-          <img className="logo" src={LOGO} alt="Teresa Lavoie Pfp"/>
+          <img className="logo" src={LOGO} alt="Teresa Lavoie Pfp" />
         </a>
         © Teresa Lavoie {(new Date().getFullYear())}
       </footer>

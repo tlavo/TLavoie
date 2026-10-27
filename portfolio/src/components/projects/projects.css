@@ -1,3 +1,4 @@
+/* COMMON PROJECT PAGE CLASSES */
 .back-button {
     transition: 0.3s ease;
     background-color: #90534f;
@@ -17,35 +18,113 @@
     justify-content: center;
 }
 
+
+/* CASSET */
 .demo-video {
-    width: 80vw; 
+    width: 80vw;
     height: 45vw;
 }
 
 .project-descs {
     font-size: medium;
+
+    p {
+        font-size: medium;
+    }
 }
 
 .project-pics {
     width: 98%;
     border-radius: 20px;
-    box-shadow: 
-        0.6vw 0.6vw 0.4vw rgba(0, 0, 0, 0.25), 
-        0.6vw 0.6vw 0.8vw rgba(0, 0, 0, 0.25), 
-        0.6vw 0.6vw 1.0vw rgba(0, 0, 0, 0.25); 
+    box-shadow:
+        0.6vw 0.6vw 0.4vw rgba(0, 0, 0, 0.25),
+        0.6vw 0.6vw 0.8vw rgba(0, 0, 0, 0.25),
+        0.6vw 0.6vw 1.0vw rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width: 800px) {
     .demo-video {
-        width: 56vw; 
+        width: 56vw;
         height: 31.5vw;
     }
+
     .project-pics {
         width: 98%;
         border-radius: 20px;
-        box-shadow: 
+        box-shadow:
             0.3vw 0.3vw 0.2vw rgba(0, 0, 0, 0.25),
-            0.3vw 0.3vw 0.65vw rgba(0, 0, 0, 0.25), 
-            0.3vw 0.3vw 0.8vw rgba(0, 0, 0, 0.25); 
+            0.3vw 0.3vw 0.65vw rgba(0, 0, 0, 0.25),
+            0.3vw 0.3vw 0.8vw rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* FAMILY OF SLUSH */
+.site-picture {
+    width: 80vw;
+    height: auto;
+}
+
+.project-descs-bullets {
+    font-size: medium;
+    padding-left: 20px;
+
+    p {
+        font-size: medium;
+    }
+}
+
+.dragon-fruit-frames {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.dragon-fruit-research {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .research-1 {
+        width: 225px;
+        height: auto;
+    }
+
+    .research-2 {
+        width: 400px;
+        height: auto;
+    }
+}
+
+.dragon-fruit-sketches-img {
+    width: 75vw;
+    height: auto;
+}
+
+.receipt-image-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+
+    img {
+        width: 200px;
+        height: auto;
+        /* height: 200px; */
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .site-picture {
+        width: 50vw;
+        height: auto;
+    }
+
+    .dragon-fruit-sketches-img {
+        width: 40vw;
+        height: auto;
     }
 }
