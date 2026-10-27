@@ -46,7 +46,7 @@ function FamilyOfSlush() {
             <div className="project-descs-bullets">
                 <p>
                     &#x2605; Strong ability to evoke the individual's personalities/likenesses,
-                    and teamdynamics in a creative and insightful way
+                    and team dynamics in a creative and insightful way
                 </p>
                 <p>
                     &#x2605; Reliable level of execution and clear user design on how to run
