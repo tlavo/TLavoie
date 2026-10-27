@@ -54,7 +54,7 @@ function Experience() {
           image={FamilyOfSlush}
           title="Family of Slush"
           description={`Rich website experience to depict group dynamics and individual
-            personalities in a creative way - inspired by the game "Papa’s Freezeria"`}
+            personalities with buttons in a creative way - inspired by the game "Papa’s Freezeria"`}
           website="https://zakisalam223.github.io/CPSC581Group6Project1/"
           github="https://github.com/zakisalam223/CPSC581Group6Project1"
           inDevelopment={false}
@@ -139,7 +139,7 @@ function Experience() {
             of SQL, and error handling & informative feedback"
           github="https://github.com/tlavo/380-Final-Project"
           inDevelopment={true}
-          message=<p>Sorry, this is a Java project; Download the
+          message=<p>Sorry, this is a Java project; Download the&nbsp;
             <a href="https://github.com/tlavo/380-Final-Project/blob/main/EWRDemo.mp4"
               target="_blank" rel="noopener noreferrer">demo video</a> to view</p>
         />

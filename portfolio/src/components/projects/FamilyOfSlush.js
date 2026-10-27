@@ -10,6 +10,9 @@ import button3 from '../../media/DragonFruitAfterOffset.png';
 import pagelayout from '../../media/PageLayout.png';
 import receipt1 from '../../media/receiptdraw.png';
 import receipt2 from '../../media/receiptsite.png';
+import error1 from '../../media/error1.png'
+import error2 from '../../media/error2.png'
+import error3 from '../../media/error3.png'
 
 function FamilyOfSlush() {
     const navigate = useNavigate();
@@ -191,6 +194,19 @@ function FamilyOfSlush() {
                 but straight to the point! I emulated this in the way I wrote the slushy receipt descriptions
                 (an example can be seen in the receipt image above), as well as the error handling pop-ups.
             </p>
+            <p className="project-descs padding">
+                Below are some examples of some different error cases and messages that I added:
+            </p>
+            <div className="error-examples-contianer center-container">
+                <img src={error1} alt="error example 1" />
+                <img src={error2} alt="error example 2" />
+                <img src={error3} alt="error example 3" />
+            </div>
+            <div className="padding">
+                <h4 style={{ textAlign: 'center' }}>
+                    Images of my error handling in action
+                </h4>
+            </div>
 
             <p className="project-descs padding">
                 <b>BUTTON SELECTION BORDER:</b> Late into the project, I realized that it is not always obvious

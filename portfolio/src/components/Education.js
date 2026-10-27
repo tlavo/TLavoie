@@ -1,3 +1,5 @@
+import capstonePdf from '../media/500-TS-2-Daedalus_Capstone_Fair_Poster.pdf';
+
 function Education() {
   return (
     <div className="comp_item main-content scrollable" id="Description">
@@ -21,7 +23,9 @@ function Education() {
             <strong>
               <a href="https://schulich.ucalgary.ca/current-students/engineering-career-centre/engineering-design-fair/2026-winners" target="_blank" rel="noopener noreferrer">Engineering Design Fair Bronze Winner</a>
             </strong> <br />
-            University of Calgary (Aviaee – Air-based Delivery System)
+            University of Calgary&nbsp;
+            (<a href={capstonePdf} target="_blank"
+              rel="noopener noreferrer">Aviaee – Air-based Delivery System</a>)
           </div>
           <div className="e-dates">
             April 1, 2026   <br />

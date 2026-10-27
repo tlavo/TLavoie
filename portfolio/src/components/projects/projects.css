@@ -113,7 +113,17 @@
     img {
         width: 200px;
         height: auto;
-        /* height: 200px; */
+    }
+}
+
+.error-examples-contianer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    img {
+        width: 230px;
+        height: auto;
     }
 }
 

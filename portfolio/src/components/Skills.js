@@ -3,7 +3,7 @@ function Skills() {
     <div className="comp_item main-content scrollable" id="Description">
       <h1 className="space">Skills</h1>
       <p>
-        In progress...
+        PAGE IN PROGRESS...
       </p>
       <h2 className="space2">Programming</h2>
       <div className="row padding">
