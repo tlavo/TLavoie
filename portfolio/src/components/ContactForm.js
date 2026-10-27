@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import './ContactForm.css';
 import li from '../media/linkedin.png';
 import ig from '../media/instagram.png';
@@ -60,7 +60,7 @@ function ContactForm() {
                 <form ref={formRef} method="POST" action="" className="contact-left" id="form">
                     <input type="hidden" name="access_key" value="97283245-1d2a-468c-8510-c1db528878b8"></input>
                     <input type="text" name="name" placeholder="Name" className="contact-inputs" required></input>
-                    <input type="text" name="email" placeholder="Email" className="contact-inputs" required></input>
+                    <input type="email" name="email" placeholder="Email" className="contact-inputs" required></input>
                     <textarea name="message" placeholder="Your Message" className="contact-inputs" required></textarea>
                     <div className="submit-section">
                         <button type="submit">Submit<img src={arrow} alt=""></img></button>
@@ -70,15 +70,15 @@ function ContactForm() {
                 <div className="contact-right">
                     <div className="contact-liststyle">
                         <p className='contact-list'>
-                            <img src={li} width="30" alt="linkedin icon"/> 
+                            <img src={li} width="30" alt="linkedin icon" />
                             &nbsp;<a href="https://www.linkedin.com/in/teresa-lavoie-0a1a44264/" target="_blank" rel="noopener noreferrer">Teresa Lavoie</a>
                         </p>
                         <p className='contact-list'>
-                            <img src={ig} width="30" alt="instagram icon"/> 
+                            <img src={ig} width="30" alt="instagram icon" />
                             &nbsp;<a href="https://www.instagram.com/teresalavoie11/" target="_blank" rel="noopener noreferrer">teresalavoie11</a>
                         </p>
                         <p className='contact-list'>
-                            <img src={pi} width="30" alt="pinterest icon"/> 
+                            <img src={pi} width="30" alt="pinterest icon" />
                             &nbsp;<a href="https://www.pinterest.ca/teresamarialavoie/" target="_blank" rel="noopener noreferrer">teresamarialavoie</a>
                         </p>
                     </div>

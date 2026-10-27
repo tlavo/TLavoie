@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './projects.css';
 import familyofslush from '../../media/familyofslush.png';
@@ -169,7 +168,7 @@ function FamilyOfSlush() {
 
             <p className="project-descs padding">
                 <b>RECEIPT DRAWING/UI:</b> Since the website is an experience of a convenience-like store,
-                the user is expected to have a receipt, which was decided on in ideation wit my team members.
+                the user is expected to have a receipt, which was decided on in ideation with my team members.
                 I took on this design task, and following the decided upon drawn style of website components,
                 I drew a receipt in Microsoft Paint, referencing receipts online.
             </p>

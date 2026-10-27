@@ -1,4 +1,3 @@
-import React from 'react';
 import ContactForm from './ContactForm';
 
 function About() {
@@ -6,18 +5,20 @@ function About() {
     <div className="comp_item main-content scrollable" id="Description">
       <h1 className="space">Hi, I'm Teresa.</h1>
       <p className="padding">
-        I am studying <i>Software Engineering</i> at the University of Calgary,
-        and am currently completing my final semester of studies after my year
+        I'm studying <i>Software Engineering</i> at the University of Calgary,
+        and I'm currently completing my final semester of studies after my year
         long internship with Mobiltex.
       </p>
       <p className="padding">
         A progam I'm in right now is <i>"Embedded in Embedded"</i> where I will
-        develop an embedded project of my choice by the end of the spring!
+        finish developing an embedded project of my choice by the end of the
+        spring!
       </p>
       <p className="padding">
         I enjoy full-stack software development, UI & UX design (user-centered design), human-computer
         interaction (HCI), discussions on AI ethics, etc. I'm also interested in
-        effective communication, cultural anthropology within the digital space, and psychology.
+        effective communication, cultural anthropology (specifically within
+        the digital space), and psychology.
       </p>
       <p className="padding">
         <b>Things I want to learn more about:</b> data science and machine learning

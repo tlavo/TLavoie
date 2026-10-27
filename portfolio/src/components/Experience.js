@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectCard from './ProjectCard';
 import FamilyOfSlush from '../media/familyofslush.png';
 import WeeModel from '../media/weemodel.png';

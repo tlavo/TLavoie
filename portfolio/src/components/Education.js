@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Education() {
   return (
     <div className="comp_item main-content scrollable" id="Description">
@@ -18,6 +16,32 @@ function Education() {
       </div>
       <h2 className="space">Achievements</h2>
       <div className="e-list">
+        <div className="e-item">
+          <div className="e-details">
+            <strong>
+              <a href="https://schulich.ucalgary.ca/current-students/engineering-career-centre/engineering-design-fair/2026-winners" target="_blank" rel="noopener noreferrer">Engineering Design Fair Bronze Winner</a>
+            </strong> <br />
+            University of Calgary (Aviaee – Air-based Delivery System)
+          </div>
+          <div className="e-dates">
+            April 1, 2026   <br />
+            Calgary, Canada
+          </div>
+        </div>
+
+        <div className="e-item">
+          <div className="e-details">
+            <strong>
+              <a href="https://badges.ucalgary.ca/achievements/1768ec1dedf435ca3994dce0648cfde4" target="_blank" rel="noopener noreferrer">Engineering Leadership Tier 3 Badge</a>
+            </strong> <br />
+            University of Calgary
+          </div>
+          <div className="e-dates">
+            April 25, 2025   <br />
+            Calgary, Canada
+          </div>
+        </div>
+
         <div className="e-item">
           <div className="e-details">
             <strong>
