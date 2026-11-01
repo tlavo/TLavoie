@@ -170,7 +170,7 @@ function FamilyOfSlush() {
             <p className="project-descs padding">
                 <b>RECEIPT DRAWING/UI:</b> Since the website is an experience of a convenience-like store,
                 the user is expected to have a receipt, which was decided on in ideation with my team members.
-                I took on this design task, and following the decided upon drawn style of website components.
+                I took on this design task, and followed the decided upon drawn style of website components.
                 I ended up drawing the receipt in Microsoft Paint, while referencing the look of receipts online.
             </p>
             <p className="project-descs padding">

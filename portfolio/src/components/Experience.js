@@ -79,7 +79,7 @@ function Experience() {
             intimacy of sharing music with the use of React.js, Spotify API, Flask, and MongoDB"
           github="https://github.com/kdafrose/CasSet"
           inDevelopment={true}
-          message=<p>Sorry, this site is still in development; See the
+          message=<p>Sorry, this site is still in development; See the&nbsp;
             <a href="https://www.youtube.com/watch?v=4GxPFEq-KxA"
               target="_blank" rel="noopener noreferrer">demo video</a> to preview</p>
         />
@@ -117,7 +117,7 @@ function Experience() {
             Strategy pattern for a flexible UI/UX approach"
           github="https://github.com/tlavo/480-Term-Project"
           inDevelopment={true}
-          message=<p>Sorry, this is a Java project; Download the
+          message=<p>Sorry, this is a Java project; Download the&nbsp;
             <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar"
               target="_blank" rel="noopener noreferrer">.jar file</a> to view</p>
         />

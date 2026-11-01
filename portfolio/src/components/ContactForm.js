@@ -71,15 +71,15 @@ function ContactForm() {
                     <div className="contact-liststyle">
                         <p className='contact-list'>
                             <img src={li} width="30" alt="linkedin icon" />
-                            &nbsp;<a href="https://www.linkedin.com/in/teresa-lavoie-0a1a44264/" target="_blank" rel="noopener noreferrer">Teresa Lavoie</a>
+                            &nbsp;<a href="https://www.linkedin.com/in/teresa-lavoie-0a1a44264/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         </p>
                         <p className='contact-list'>
                             <img src={ig} width="30" alt="instagram icon" />
-                            &nbsp;<a href="https://www.instagram.com/teresalavoie11/" target="_blank" rel="noopener noreferrer">teresalavoie11</a>
+                            &nbsp;<a href="https://www.instagram.com/teresalavoie11/" target="_blank" rel="noopener noreferrer">Instagram</a>
                         </p>
                         <p className='contact-list'>
                             <img src={pi} width="30" alt="pinterest icon" />
-                            &nbsp;<a href="https://www.pinterest.ca/teresamarialavoie/" target="_blank" rel="noopener noreferrer">teresamarialavoie</a>
+                            &nbsp;<a href="https://www.pinterest.ca/teresamarialavoie/" target="_blank" rel="noopener noreferrer">Pinterest</a>
                         </p>
                     </div>
                 </div>
