@@ -21,10 +21,11 @@ function FamilyOfSlush() {
         <div className="comp_item main-content scrollable" id="Description">
             <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
             <h1 className="space">Family of Slush</h1>
-            <p className="padding">Family of Slush is a rich website experience to depict my <i>"HCI II"</i> group's similarities,
-                differences, and dynamics through buttons in a novel and creative way. Feel free to visit the&nbsp;
-                <a href="https://zakisalam223.github.io/CPSC581Group6Project1/"
-                    target="_blank" rel="noopener noreferrer">deployed website</a>!</p>
+            <p className="padding">Family of Slush is a rich website experience to depict my <i>"HCI II"</i>
+                group's similarities, differences, and dynamics through buttons in a novel and creative way.
+                Feel free to visit the <a href="https://zakisalam223.github.io/CPSC581Group6Project1/"
+                    target="_blank" rel="noopener noreferrer">deployed website</a>!
+            </p>
 
             <div className="center-container">
                 <img className="site-picture" src={familyofslush} alt="Family of Slush" />
@@ -40,7 +41,6 @@ function FamilyOfSlush() {
                     target="_blank" rel="noopener noreferrer">Papa’s Freezeria</a>". The context of the
                 buttons on this website is a way to select slushy machine flavours at a local
                 convenience-like store called “Family of Slush”.
-
             </p>
             <p className="project-descs">
                 The project's main criteria were:
