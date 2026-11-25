@@ -16,7 +16,7 @@ function KBBQCookingTimer() {
                 <img className="site-picture" src={kbbqcookingtimer} alt="K-BBQ Cooking Timer" />
             </div>
             <h4 style={{ textAlign: 'center' }}>
-                Image of "K-BBQ" final system implementation
+                Image of "K-BBQ Cooking Timer" final system implementation
             </h4>
 
             <h2 className="space">Project Purpose and Goal</h2>
