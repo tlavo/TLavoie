@@ -194,7 +194,7 @@ function WeeModel() {
                 is a proof of concept this is more for show on how the controls would work in the future.
             </p>
             <p className="note-point project-descs padding">
-                <u>Note on help button:</u> The final help button design can be seen in version two of this design
+                <u>Note on help button:</u> The final help button design can be seen on this page
                 — my team decided that the circular help button with the bell icon was the best design for
                 this page, and I adjusted the red colour to be more complimentary to te green used in the
                 design.
