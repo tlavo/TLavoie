@@ -2,6 +2,9 @@ function Interests() {
   return (
     <div className="comp_item main-content scrollable" id="Description">
       <h1 className="space">Interests</h1>
+      <p>
+        PAGE IN PROGRESS...
+      </p>
       <ul className="liststyle padding">
         <li>Reading/Writing</li>
         <li>Playing the piano</li>

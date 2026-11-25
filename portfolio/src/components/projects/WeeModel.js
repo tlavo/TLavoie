@@ -161,7 +161,7 @@ function WeeModel() {
                 apprentice puzzle screen. This is where the main functionality of the application exists. This
                 design (in Figma as usual) took approximately two versions of design where changes were made
                 to some labels, colours, buttons, etc. This screen was vital to design and complete (see the
-                initial implementation of this page in "PAGE LAYOUTS/NAVIGATION IMPLEMENTATION" below), since
+                initial implementation of this page in "PAGE LAYOUTS/NAVIGATION IMPLEMENTATION" above), since
                 all other puzzle screens are based off of the look of this design (i.e. game master demo puzzle
                 screen).
             </p>

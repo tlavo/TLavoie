@@ -1,6 +1,7 @@
 import ProjectCard from './ProjectCard';
 import FamilyOfSlush from '../media/familyofslush.png';
 import WeeModel from '../media/weemodel.png';
+import KBBQCookingTimer from '../media/kbbqcookingtimer.png';
 import CasSet from '../media/casset.png';
 import TheLastShow from '../media/thelastshow.png';
 import Lotion from '../media/lotion.png';
@@ -57,7 +58,6 @@ function Experience() {
             personalities with buttons in a creative way - inspired by the game "Papa’s Freezeria"`}
           website="https://zakisalam223.github.io/CPSC581Group6Project1/"
           github="https://github.com/zakisalam223/CPSC581Group6Project1"
-          inDevelopment={false}
         />
         <ProjectCard
           image={WeeModel}
@@ -66,7 +66,17 @@ function Experience() {
             between a "game master" & "apprentice" using embodied input/output`}
           website="https://zakisalam223.github.io/CPSC581Group6Project2/"
           github="https://github.com/zakisalam223/CPSC581Group6Project2"
-          inDevelopment={false}
+        />
+        <ProjectCard
+          image={KBBQCookingTimer}
+          title="K-BBQ Cooking Timer"
+          description={`In progress...`}
+          website="https://zakisalam223.github.io/CPSC581Group6Project2/"
+          github="https://github.com/zakisalam223/CPSC581Project3 "
+          hasMessage={true}
+          message=<p>Sorry, this is a hardware project; See the&nbsp;
+            <a href="https://www.youtube.com/watch?v=VABHzoFOO8U"
+              target="_blank" rel="noopener noreferrer">demo video</a> to view</p>
         />
       </div>
 
@@ -78,7 +88,7 @@ function Experience() {
           description="Full-Stack app for users to annotate playlists, capturing 
             intimacy of sharing music with the use of React.js, Spotify API, Flask, and MongoDB"
           github="https://github.com/kdafrose/CasSet"
-          inDevelopment={true}
+          hasMessage={true}
           message=<p>Sorry, this site is still in development; See the&nbsp;
             <a href="https://www.youtube.com/watch?v=4GxPFEq-KxA"
               target="_blank" rel="noopener noreferrer">demo video</a> to preview</p>
@@ -90,7 +100,6 @@ function Experience() {
             Amazon Polly to turn it into speech, and Cloudinary to store it"
           website="https://main--thelastshow.netlify.app/"
           github="https://github.com/tlavo/The-Last-Show"
-          inDevelopment={false}
         />
         <ProjectCard
           image={Lotion}
@@ -99,7 +108,7 @@ function Experience() {
             and uuid (no Back-End, but localStorage for browser persistence)"
           website="https://tealotion.netlify.app/"
           github="https://github.com/tlavo/assignment-06-lotion-tlavo-personal"
-          inDevelopment={false}
+          hasMessage={false}
         />
         <ProjectCard
           image={Wordle}
@@ -108,7 +117,6 @@ function Experience() {
             instructions, and a light & dark mode"
           website="https://tlavo.github.io/Wordle/"
           github="https://github.com/tlavo/Wordle"
-          inDevelopment={false}
         />
         <ProjectCard
           image={AirlineFlight}
@@ -116,7 +124,7 @@ function Experience() {
           description="Java app using an SQL database, an access control system (data security), and the 
             Strategy pattern for a flexible UI/UX approach"
           github="https://github.com/tlavo/480-Term-Project"
-          inDevelopment={true}
+          hasMessage={true}
           message=<p>Sorry, this is a Java project; Download the&nbsp;
             <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar"
               target="_blank" rel="noopener noreferrer">.jar file</a> to view</p>
@@ -130,7 +138,6 @@ function Experience() {
               target="_blank" rel="noopener noreferrer">project pdf</a> for details)</p>
           website="https://tlavo.github.io/ensf338-final-project/"
           github="https://github.com/tlavo/ensf338-final-project"
-          inDevelopment={false}
         />
         <ProjectCard
           image={WildlifeRescue}
@@ -138,10 +145,10 @@ function Experience() {
           description="OOP Java app to generate a daily schedule for a wildlife rescue center with the use 
             of SQL, and error handling & informative feedback"
           github="https://github.com/tlavo/380-Final-Project"
-          inDevelopment={true}
+          hasMessage={true}
           message=<p>Sorry, this is a Java project; Download the&nbsp;
-            <a href="https://github.com/tlavo/380-Final-Project/blob/main/EWRDemo.mp4"
-              target="_blank" rel="noopener noreferrer">demo video</a> to view</p>
+            <a href="https://github.com/tlavo/480-Term-Project/blob/main/ensf480-term-project.jar"
+              target="_blank" rel="noopener noreferrer">.jar file</a> to view</p>
         />
       </div>
     </div>

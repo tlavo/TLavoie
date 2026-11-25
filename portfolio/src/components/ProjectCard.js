@@ -3,13 +3,13 @@ import Popup from './Popup';
 import { useNavigate } from 'react-router-dom';
 import more from '../media/more.png';
 
-function ProjectCard({ image, title, description, website, github, inDevelopment, message }) {
+function ProjectCard({ image, title, description, website, github, hasMessage = false, message }) {
   const [showPopup, setShowPopup] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const navigate = useNavigate();
 
   const handleWebsiteClick = () => {
-    if (inDevelopment) {
+    if (hasMessage) {
       setShowPopup(true);
     } else {
       window.open(website, '_blank');
@@ -19,7 +19,7 @@ function ProjectCard({ image, title, description, website, github, inDevelopment
   const handleMoreClick = () => {
     const projectName = title.replace(/[\s/]+/g, '-');
     navigate(`/TLavoie/experience/${projectName}`);
-  };  
+  };
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -29,7 +29,7 @@ function ProjectCard({ image, title, description, website, github, inDevelopment
     setIsHovered(false);
     setShowPopup(false);
   };
-  
+
   return (
     <div className="project-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <h3 className="project-title">{title}</h3>
@@ -37,7 +37,7 @@ function ProjectCard({ image, title, description, website, github, inDevelopment
       <div className="project-hover-content">
         <button className="project-more-button" onClick={handleMoreClick}>
           more&nbsp;
-          <img className="more" src={more} width="12" height="12" alt="more icon"/>
+          <img className="more" src={more} width="12" height="12" alt="more icon" />
         </button>
         <p className="project-description">{description}</p>
         <div className="project-buttons">

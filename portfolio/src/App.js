@@ -10,6 +10,7 @@ import Experience from './components/Experience';
 import Interests from './components/Interests';
 import FamilyOfSlush from './components/projects/FamilyOfSlush';
 import WeeModel from './components/projects/WeeModel';
+import KBBQCookingTimer from './components/projects/KBBQCookingTimer';
 import CasSet from './components/projects/CasSet';
 import TheLastShow from './components/projects/TheLastShow';
 import Lotion from './components/projects/Lotion';
@@ -76,6 +77,7 @@ function App() {
             <Route path="/TLavoie/experience" element={<Experience />} />
             <Route path="/TLavoie/experience/Family-of-Slush" element={<FamilyOfSlush />} />
             <Route path="/TLavoie/experience/WeeModel" element={<WeeModel />} />
+            <Route path="/TLavoie/experience/K-BBQ-Cooking-Timer" element={<KBBQCookingTimer />} />
             <Route path="/TLavoie/experience/CasSet" element={<CasSet />} />
             <Route path="/TLavoie/experience/The-Last-Show" element={<TheLastShow />} />
             <Route path="/TLavoie/experience/Lotion" element={<Lotion />} />
