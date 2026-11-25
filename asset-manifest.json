@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TLavoie/static/css/main.712b0b86.css",
-    "main.js": "/TLavoie/static/js/main.b29529c2.js",
+    "main.js": "/TLavoie/static/js/main.16081edd.js",
     "static/js/453.ace21015.chunk.js": "/TLavoie/static/js/453.ace21015.chunk.js",
     "static/media/familyofslush.png": "/TLavoie/static/media/familyofslush.baaa75a38627450bcf74.png",
     "static/media/PageLayoutFamilyofSlush.png": "/TLavoie/static/media/PageLayoutFamilyofSlush.3a401683f0d36ee5cbbc.png",
@@ -9,6 +9,7 @@
     "static/media/weemodel.png": "/TLavoie/static/media/weemodel.eb899d0395c459d06653.png",
     "static/media/wildliferescue.png": "/TLavoie/static/media/wildliferescue.be290612ff5632c87ae7.png",
     "static/media/ReadyUpVersion1.png": "/TLavoie/static/media/ReadyUpVersion1.0398c5cb83214380b85b.png",
+    "static/media/kbbqcookingtimer.png": "/TLavoie/static/media/kbbqcookingtimer.ba55546958f26cea7ccd.png",
     "static/media/pfp.JPG": "/TLavoie/static/media/pfp.03f3bf3475fd44ea45d3.JPG",
     "static/media/casset.png": "/TLavoie/static/media/casset.1ca4a6ac1233276e389d.png",
     "static/media/500-TS-2-Daedalus_Capstone_Fair_Poster.pdf": "/TLavoie/static/media/500-TS-2-Daedalus_Capstone_Fair_Poster.f8e202f744ed11b04400.pdf",
@@ -47,11 +48,11 @@
     "static/media/linkedin.png": "/TLavoie/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/TLavoie/index.html",
     "main.712b0b86.css.map": "/TLavoie/static/css/main.712b0b86.css.map",
-    "main.b29529c2.js.map": "/TLavoie/static/js/main.b29529c2.js.map",
+    "main.16081edd.js.map": "/TLavoie/static/js/main.16081edd.js.map",
     "453.ace21015.chunk.js.map": "/TLavoie/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.712b0b86.css",
-    "static/js/main.b29529c2.js"
+    "static/js/main.16081edd.js"
   ]
 }
