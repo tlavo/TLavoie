@@ -7,7 +7,7 @@ import buttonsketches from '../../media/buttonsketches.jpg';
 import button1 from '../../media/DragonFruitBefore.png';
 import button2 from '../../media/DragonFruitAfter.png';
 import button3 from '../../media/DragonFruitAfterOffset.png';
-import pagelayout from '../../media/PageLayout.png';
+import pagelayout from '../../media/PageLayoutFamilyofSlush.png';
 import receipt1 from '../../media/receiptdraw.png';
 import receipt2 from '../../media/receiptsite.png';
 import error1 from '../../media/error1.png'
@@ -134,7 +134,6 @@ function FamilyOfSlush() {
                 flips between the second and third frames, to show a fun animation to indicate my
                 personality/individuality!
             </p>
-
             <div className="dragon-fruit-frames center-container">
                 <img src={button1} alt="dragon fruit button frame 1" />
                 <img src={button2} alt="dragon fruit button frame 2" />
@@ -154,7 +153,6 @@ function FamilyOfSlush() {
                 the lever). I also added some finished image elements such as the slushy cup, and the
                 slushy receipt.
             </p>
-
             <p className="project-descs padding">
                 Below is how the page layout looked after my initial implementation and structuring:
             </p>

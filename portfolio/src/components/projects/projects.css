@@ -58,7 +58,6 @@
     }
 }
 
-/* FAMILY OF SLUSH */
 .site-picture {
     width: 80vw;
     height: auto;
@@ -73,6 +72,11 @@
     }
 }
 
+.note-point {
+    padding-left: 15px;
+}
+
+/* FAMILY OF SLUSH */
 .dragon-fruit-frames {
     flex-direction: row;
     flex-wrap: wrap;
@@ -127,6 +131,34 @@
     }
 }
 
+/* WEEMODEL */
+.two-pages-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    img {
+        width: 375px;
+        height: auto;
+    }
+}
+
+.key-bind-mapping-design-img {
+    width: 250px;
+    height: auto;
+}
+
+.help-button-designs-img {
+    width: 75vw;
+    height: auto;
+}
+
+.fake-remote {
+    width: 200px;
+    height: auto;
+}
+
+/* MEDIA SCREEN - CLASS CHANGES */
 @media screen and (min-width: 800px) {
     .site-picture {
         width: 50vw;
@@ -134,6 +166,11 @@
     }
 
     .dragon-fruit-sketches-img {
+        width: 40vw;
+        height: auto;
+    }
+
+    .help-button-designs-img {
         width: 40vw;
         height: auto;
     }
