@@ -191,7 +191,12 @@ function KBBQCookingTimer() {
             </div>
 
             <p className="project-descs padding">
-                <b>GRILL MASTER RATING SYSTEM IDEA:</b> In progress...
+                <b>GRILL MASTER RATING SYSTEM IDEA:</b> As an extra feature of the system that could be
+                implemented in the future, I thought of a "Grill Master Rating System": After each "Grill
+                Master" is done cooking, the users can rate their cooking and experience through a
+                separate app, a tablet that is passed around, or something augmented directly within the
+                eating experience such as a utensil, cup, napkin, etc. The winner (the grill master who
+                got the highest rating) receives a special chef hat!
             </p>
 
             <h2 className="space">Problems and Thought Process</h2>
