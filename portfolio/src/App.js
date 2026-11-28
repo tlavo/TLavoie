@@ -1,4 +1,4 @@
-import { Route, Routes, NavLink } from 'react-router-dom';
+import { Route, Routes, NavLink, Navigate } from 'react-router-dom';
 import './App.css';
 import PFP from './media/pfp.JPG';
 import LOGO from './media/logo.png';
@@ -27,27 +27,27 @@ function App() {
           <div className="container">
             <ul className="nav nolist">
               <li>
-                <NavLink to="/TLavoie/" end className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/TLavoie/experience" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Experience
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/TLavoie/education" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/education" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Education
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/TLavoie/skills" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/skills" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Skills
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/TLavoie/interests" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/interests" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Interests
                 </NavLink>
               </li>
@@ -59,7 +59,7 @@ function App() {
       <article>
         <div className="comp">
           <div className="image-content">
-            <a href="https://tlavo.github.io/TLavoie/">
+            <a href="https://tlavo.github.io/TLavoie">
               <img className="pfp" src={PFP} alt="Teresa Lavoie Pfp" />
             </a>
             <h1 className="pfp-name">Teresa Lavoie</h1>
@@ -71,28 +71,32 @@ function App() {
               <a href="https://github.com/tlavo" target="_blank" rel="noopener noreferrer">tlavo</a>
             </p>
           </div>
+
           <Routes>
-            <Route path="/TLavoie/" element={<About />} />
-            <Route path="/TLavoie/education" element={<Education />} />
-            <Route path="/TLavoie/experience" element={<Experience />} />
-            <Route path="/TLavoie/experience/Family-of-Slush" element={<FamilyOfSlush />} />
-            <Route path="/TLavoie/experience/WeeModel" element={<WeeModel />} />
-            <Route path="/TLavoie/experience/K-BBQ-Cooking-Timer" element={<KBBQCookingTimer />} />
-            <Route path="/TLavoie/experience/CasSet" element={<CasSet />} />
-            <Route path="/TLavoie/experience/The-Last-Show" element={<TheLastShow />} />
-            <Route path="/TLavoie/experience/Lotion" element={<Lotion />} />
-            <Route path="/TLavoie/experience/My-Wordle" element={<MyWordle />} />
-            <Route path="/TLavoie/experience/Airline-Flight-Reservation" element={<AirlineFlightReservation />} />
-            <Route path="/TLavoie/experience/Data-Structs-Algos-Library" element={<DataStructsAlgosLibrary />} />
-            <Route path="/TLavoie/experience/Wildlife-Rescue-Scheduler" element={<WildlifeRescueScheduler />} />
-            <Route path="/TLavoie/skills" element={<Skills />} />
-            <Route path="/TLavoie/interests" element={<Interests />} />
+            <Route path="/" element={<About />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/experience/Family-of-Slush" element={<FamilyOfSlush />} />
+            <Route path="/experience/WeeModel" element={<WeeModel />} />
+            <Route path="/experience/K-BBQ-Cooking-Timer" element={<KBBQCookingTimer />} />
+            <Route path="/experience/CasSet" element={<CasSet />} />
+            <Route path="/experience/The-Last-Show" element={<TheLastShow />} />
+            <Route path="/experience/Lotion" element={<Lotion />} />
+            <Route path="/experience/My-Wordle" element={<MyWordle />} />
+            <Route path="/experience/Airline-Flight-Reservation" element={<AirlineFlightReservation />} />
+            <Route path="/experience/Data-Structs-Algos-Library" element={<DataStructsAlgosLibrary />} />
+            <Route path="/experience/Wildlife-Rescue-Scheduler" element={<WildlifeRescueScheduler />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/interests" element={<Interests />} />
+
+            {/* Redirect any unknown hash routes back to About (#/) */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </article>
 
       <footer>
-        <a href="https://tlavo.github.io/TLavoie/">
+        <a href="https://tlavo.github.io/TLavoie">
           <img className="logo" src={LOGO} alt="Teresa Lavoie Pfp" />
         </a>
         © Teresa Lavoie {(new Date().getFullYear())}

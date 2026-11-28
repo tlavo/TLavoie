@@ -5,7 +5,7 @@ function DataStructsAlgosLibrary() {
 
   return (
     <div className="comp_item main-content" id="Description">
-      <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
+      <button className="back-button" onClick={() => navigate('/experience')}>Back</button>
       <h1 className="space">Data Structs/Algos Library</h1>
       <p>Details about the Data Structs/Algos Library project...</p>
     </div>

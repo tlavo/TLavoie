@@ -5,7 +5,7 @@ function WildlifeRescueScheduler() {
 
   return (
     <div className="comp_item main-content" id="Description">
-      <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
+      <button className="back-button" onClick={() => navigate('/experience')}>Back</button>
       <h1 className="space">Wildlife Rescue Scheduler</h1>
       <p>Details about the Wildlife Rescue Scheduler project...</p>
     </div>

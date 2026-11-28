@@ -70,7 +70,8 @@ function Experience() {
         <ProjectCard
           image={KBBQCookingTimer}
           title="K-BBQ Cooking Timer"
-          description={`In progress...`}
+          description={`Augmented K-BBQ table to improve the experience of people eating 
+            together - using an Arduino with RGB LEDs, analog joystick, LCD screen, buttons, etc.`}
           website="https://zakisalam223.github.io/CPSC581Group6Project2/"
           github="https://github.com/zakisalam223/CPSC581Project3 "
           hasMessage={true}

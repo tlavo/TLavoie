@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './projects.css';
 import weemodel from '../../media/weemodel.png';
+import userstories from '../../media/userstories.png';
 import readyupversion1 from '../../media/ReadyUpVersion1.png';
 import readyupversion2 from '../../media/ReadyUpVersion2.png';
 import keybindmappingdesign from '../../media/keybindmappingdesign.png';
@@ -19,7 +20,7 @@ function WeeModel() {
 
     return (
         <div className="comp_item main-content scrollable" id="Description">
-            <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
+            <button className="back-button" onClick={() => navigate('/experience')}>Back</button>
             <h1 className="space">WeeModel</h1>
             <p className="padding">WeeModel is an expertise sharing platform created by my <i>"HCI II"</i> group
                 to bring the proof of concept of a 3D modeling software plug-in with gyroscopic
@@ -72,6 +73,27 @@ function WeeModel() {
 
             <h2 className="space">Individual Contributions</h2>
             <p className="project-descs padding">
+                <b>USER STORIES:</b> To give a clear picture of what the application is used for by
+                different user groups I defined user stories for both the "Novice" and "Expert" users (as
+                mentioned above, in the case of this application these users are called "Apprentice"
+                and "Game Master", respectively). These defined user stories are apart of a&nbsp;
+                <u>Defining Requirements</u> document created by my teammate Batool.
+            </p>
+            <p className="project-descs padding">
+                Below are the defined user stories I wrote as well as assumptions associated with them
+                (by Batool):
+            </p>
+            <div className="center-container">
+                <img className="user-stories-research-img" src={userstories} alt="user stories" />
+            </div>
+            <div className="padding">
+                <h4 style={{ textAlign: 'center' }}>
+                    Image of my user story definitions and relevant assumptions
+                </h4>
+            </div>
+
+
+            <p className="project-descs padding">
                 <b>READY-UP SCREEN DESIGNS:</b> For this screen's designs I cooperated with my teammate Batool.
                 I created the first version of the Figma page design, while Batool finalized the design in
                 version two as well as in implementation. Our initial inspiration was to make it look like
@@ -81,7 +103,7 @@ function WeeModel() {
             </p>
             <p className="project-descs padding">
                 Below are me and Batool's ready-up screen Figma designs in the order of version one and two,
-                respectively:
+                tively:
             </p>
             <div className="two-pages-container center-container">
                 <img className="" src={readyupversion1} alt="ready-up version 1" />
@@ -104,8 +126,8 @@ function WeeModel() {
             <p className="note-point project-descs padding">
                 <u>Note:</u> Earlier on into the project, we thought it would be good to keep the key binds near the
                 typical "WASD" keys as these are common when gaming and are all near each other, but this later
-                changed to be "R" for rotation for example, and so on since we felt this was more obvious and
-                self explanatory for the user.
+                changed to be "R" for rotation for example, and so on since we felt this was more self explanatory
+                for the user.
             </p>
             <div className="center-container">
                 <img className="key-bind-mapping-design-img" src={keybindmappingdesign} alt="key bind mapping design" />
@@ -138,13 +160,13 @@ function WeeModel() {
                 project has multiple different pages, I referenced some standard multi-page application
                 structuring online for easier development with my team members, as well as to emphasize code
                 organization and modularity. I added some general page navigation logic and functionality of
-                the site where the ready up page navigates to the main puzzle page. Since the project uses
+                the site where the ready-up page navigates to the main puzzle page. Since the project uses
                 Vite for a build tool and development server, I also added web page addresses to the
                 vite.config.js file for further use by my fellow team members.
             </p>
             <p className="project-descs padding">
                 Below is how the initial pages looked after my initial implementation and structuring
-                (ready up page navigating to the main puzzle page):
+                (ready-up page navigating to the main puzzle page):
             </p>
             <div className="two-pages-container center-container">
                 <img className="" src={pagelayout1} alt="page layout 1" />
@@ -196,8 +218,8 @@ function WeeModel() {
             <p className="note-point project-descs padding">
                 <u>Note on help button:</u> The final help button design can be seen on this page
                 — my team decided that the circular help button with the bell icon was the best design for
-                this page, and I adjusted the red colour to be more complimentary to te green used in the
-                design.
+                this page, and Batool and I adjusted the red colour to be more complimentary to the green
+                used in the design.
             </p>
             <div className="center-container">
                 <img className="site-picture" src={apprenticemainpuzzle} alt="apprentice main puzzle page final implementation" />
@@ -210,7 +232,7 @@ function WeeModel() {
 
             <p className="project-descs padding">
                 <b>APPRENTICE LEVEL COMPLETE SCREEN IMPLEMENTATION:</b> My teammate Titan designed the look
-                of the level complete screen, while I completed the implementatoin based off of his design.
+                of the level complete screen, while I completed the implementation based off of his design.
             </p>
             <p className="project-descs padding">
                 Below is the final implementation of the apprentice level complete screen done by me:

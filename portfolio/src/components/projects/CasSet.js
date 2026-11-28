@@ -8,7 +8,7 @@ function CasSet() {
 
   return (
     <div className="comp_item main-content scrollable" id="Description">
-      <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
+      <button className="back-button" onClick={() => navigate('/experience')}>Back</button>
       <h1 className="space">CasSet</h1>
       <p className="padding">
         CasSet is a convenient place to customize and write notes for playlists without using

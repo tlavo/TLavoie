@@ -76,6 +76,11 @@
     padding-left: 15px;
 }
 
+.user-stories-research-img {
+    width: 70vw;
+    height: auto;
+}
+
 /* FAMILY OF SLUSH */
 .dragon-fruit-frames {
     flex-direction: row;
@@ -167,6 +172,11 @@
 
     .dragon-fruit-sketches-img {
         width: 40vw;
+        height: auto;
+    }
+
+    .user-stories-research-img {
+        width: 45vw;
         height: auto;
     }
 

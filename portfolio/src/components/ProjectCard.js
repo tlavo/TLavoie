@@ -18,7 +18,7 @@ function ProjectCard({ image, title, description, website, github, hasMessage = 
 
   const handleMoreClick = () => {
     const projectName = title.replace(/[\s/]+/g, '-');
-    navigate(`/TLavoie/experience/${projectName}`);
+    navigate(`/experience/${projectName}`);
   };
 
   const handleMouseEnter = () => {

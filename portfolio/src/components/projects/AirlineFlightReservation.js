@@ -5,7 +5,7 @@ function AirlineFlightReservation() {
 
   return (
     <div className="comp_item main-content" id="Description">
-      <button className="back-button" onClick={() => navigate('/TLavoie/experience')}>Back</button>
+      <button className="back-button" onClick={() => navigate('/experience')}>Back</button>
       <h1 className="space">Airline Flight Reservation</h1>
       <p>Details about the Airline Flight Reservation project...</p>
     </div>
